@@ -1,0 +1,268 @@
+2014-03-12 22:45:23 - Light_GF_Living_Table state updated to OFF
+2014-03-12 22:45:23 - Light_GF_Corridor_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_GF_Kitchen_Ceiling state updated to ON
+2014-03-12 22:45:23 - Light_GF_Kitchen_Table state updated to OFF
+2014-03-12 22:45:23 - Light_GF_Corridor_Wardrobe state updated to OFF
+2014-03-12 22:45:23 - Light_GF_Toilet_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_GF_Toilet_Mirror state updated to OFF
+2014-03-12 22:45:23 - Light_FF_Bath_Ceiling state updated to ON
+2014-03-12 22:45:23 - Light_FF_Bath_Mirror state updated to ON
+2014-03-12 22:45:23 - Light_FF_Corridor_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_FF_Office_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_FF_Child_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_FF_Bed_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_C_Corridor_Ceiling state updated to ON
+2014-03-12 22:45:23 - Light_C_Staircase state updated to OFF
+2014-03-12 22:45:23 - Light_C_Washing_Ceiling state updated to OFF
+2014-03-12 22:45:23 - Light_C_Workshop state updated to ON
+2014-03-12 22:45:23 - Light_Outdoor_Garage state updated to OFF
+2014-03-12 22:45:23 - Light_Outdoor_Terrace state updated to OFF
+2014-03-12 22:45:23 - Light_Outdoor_Frontdoor state updated to ON
+2014-03-12 22:45:24 - Heating_GF_Corridor state updated to OFF
+2014-03-12 22:45:24 - Heating_GF_Toilet state updated to ON
+2014-03-12 22:45:24 - Heating_GF_Living state updated to OFF
+2014-03-12 22:45:24 - Heating_GF_Kitchen state updated to OFF
+2014-03-12 22:45:24 - Heating_FF_Bath state updated to ON
+2014-03-12 22:45:24 - Heating_FF_Office state updated to OFF
+2014-03-12 22:45:24 - Heating_FF_Child state updated to OFF
+2014-03-12 22:45:24 - Heating_FF_Bed state updated to OFF
+2014-03-12 22:45:24 - Temperature_Setpoint state updated to 22
+2014-03-12 22:45:24 - Window_GF_Frontdoor state updated to CLOSED
+2014-03-12 22:45:24 - Window_GF_Kitchen state updated to CLOSED
+2014-03-12 22:45:24 - Window_GF_Living state updated to OPEN
+2014-03-12 22:45:24 - Window_GF_Toilet state updated to CLOSED
+2014-03-12 22:45:24 - Window_FF_Bath state updated to CLOSED
+2014-03-12 22:45:24 - Window_FF_Bed state updated to OPEN
+2014-03-12 22:45:24 - Window_FF_Office_Window state updated to CLOSED
+2014-03-12 22:45:24 - Window_FF_Office_Door state updated to CLOSED
+2014-03-12 22:45:24 - Garage_Door state updated to CLOSED
+2014-03-12 22:45:24 - Temperature_GF_Corridor state updated to 22.40000000
+2014-03-12 22:45:24 - Temperature_GF_Toilet state updated to 22.50000000
+2014-03-12 22:45:24 - Temperature_GF_Living state updated to 21.80000000
+2014-03-12 22:45:24 - Temperature_GF_Kitchen state updated to 18.80000000
+2014-03-12 22:45:24 - Temperature_FF_Bath state updated to 22.20000000
+2014-03-12 22:45:24 - Temperature_FF_Office state updated to 19.40000000
+2014-03-12 22:45:24 - Temperature_FF_Child state updated to 18.50000000
+2014-03-12 22:45:24 - Temperature_FF_Bed state updated to 18.70000000
+2014-03-12 22:45:24 - Weather_Temperature state updated to 5
+2014-03-12 22:45:24 - Weather_Temp_Max state updated to 5
+2014-03-12 22:45:24 - Weather_LastUpdate state updated to 2014-03-12T22:45:24
+2014-03-12 22:45:24 - Weather_Temp_Min state updated to 5
+2014-03-12 22:46:24 - Weather_Temperature state updated to 5
+2014-03-12 22:46:24 - Weather_LastUpdate state updated to 2014-03-12T22:46:24
+2014-03-12 23:19:57 - Light_GF_Living_Table state updated to ON
+2014-03-12 23:19:57 - Light_GF_Corridor_Ceiling state updated to ON
+2014-03-12 23:19:57 - Light_GF_Kitchen_Ceiling state updated to OFF
+2014-03-12 23:19:57 - Light_GF_Kitchen_Table state updated to OFF
+2014-03-12 23:19:58 - Light_GF_Corridor_Wardrobe state updated to ON
+2014-03-12 23:19:58 - Light_GF_Toilet_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_GF_Toilet_Mirror state updated to ON
+2014-03-12 23:19:58 - Light_FF_Bath_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_FF_Bath_Mirror state updated to OFF
+2014-03-12 23:19:58 - Light_FF_Corridor_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_FF_Office_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_FF_Child_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_FF_Bed_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_C_Corridor_Ceiling state updated to ON
+2014-03-12 23:19:58 - Light_C_Staircase state updated to OFF
+2014-03-12 23:19:58 - Light_C_Washing_Ceiling state updated to OFF
+2014-03-12 23:19:58 - Light_C_Workshop state updated to OFF
+2014-03-12 23:19:58 - Light_Outdoor_Garage state updated to ON
+2014-03-12 23:19:58 - Light_Outdoor_Terrace state updated to OFF
+2014-03-12 23:19:58 - Light_Outdoor_Frontdoor state updated to OFF
+2014-03-12 23:19:58 - Heating_GF_Corridor state updated to OFF
+2014-03-12 23:19:58 - Heating_GF_Toilet state updated to OFF
+2014-03-12 23:19:58 - Heating_GF_Living state updated to OFF
+2014-03-12 23:19:58 - Heating_GF_Kitchen state updated to ON
+2014-03-12 23:19:58 - Heating_FF_Bath state updated to ON
+2014-03-12 23:19:58 - Heating_FF_Office state updated to OFF
+2014-03-12 23:19:58 - Heating_FF_Child state updated to OFF
+2014-03-12 23:19:58 - Heating_FF_Bed state updated to OFF
+2014-03-12 23:19:58 - Temperature_Setpoint state updated to 22
+2014-03-12 23:19:58 - Window_GF_Frontdoor state updated to OPEN
+2014-03-12 23:19:58 - Window_GF_Kitchen state updated to CLOSED
+2014-03-12 23:19:58 - Window_GF_Living state updated to CLOSED
+2014-03-12 23:19:58 - Window_GF_Toilet state updated to CLOSED
+2014-03-12 23:19:58 - Window_FF_Bath state updated to OPEN
+2014-03-12 23:19:58 - Window_FF_Bed state updated to CLOSED
+2014-03-12 23:19:58 - Window_FF_Office_Window state updated to OPEN
+2014-03-12 23:19:58 - Window_FF_Office_Door state updated to OPEN
+2014-03-12 23:19:58 - Garage_Door state updated to CLOSED
+2014-03-12 23:19:58 - Temperature_GF_Corridor state updated to 18.80000000
+2014-03-12 23:19:58 - Temperature_GF_Toilet state updated to 19.40000000
+2014-03-12 23:19:58 - Temperature_GF_Living state updated to 20.50000000
+2014-03-12 23:19:58 - Temperature_GF_Kitchen state updated to 20.30000000
+2014-03-12 23:19:58 - Temperature_FF_Bath state updated to 19.50000000
+2014-03-12 23:19:58 - Temperature_FF_Office state updated to 21.40000000
+2014-03-12 23:19:58 - Temperature_FF_Child state updated to 20.60000000
+2014-03-12 23:19:58 - Temperature_FF_Bed state updated to 20.40000000
+2014-03-12 23:19:58 - Weather_Temp_Max state updated to 5
+2014-03-12 23:19:58 - Weather_Temp_Min state updated to 5
+2014-03-12 23:19:59 - Weather_Temperature state updated to 5
+2014-03-12 23:19:59 - Weather_LastUpdate state updated to 2014-03-12T23:19:59
+2014-03-12 23:20:00 - Temperature_GF_Corridor state updated to 19.30000000
+2014-03-12 23:20:00 - Temperature_GF_Toilet state updated to 18.10000000
+2014-03-12 23:20:00 - Temperature_GF_Living state updated to 21.30000000
+2014-03-12 23:20:00 - Temperature_GF_Kitchen state updated to 17.90000000
+2014-03-12 23:20:00 - Temperature_FF_Bath state updated to 17.60000000
+2014-03-12 23:20:00 - Temperature_FF_Office state updated to 20.10000000
+2014-03-12 23:20:00 - Temperature_FF_Child state updated to 18.50000000
+2014-03-12 23:20:00 - Temperature_FF_Bed state updated to 21.80000000
+2014-03-12 23:20:59 - Weather_Temperature state updated to 5
+2014-03-12 23:20:59 - Weather_LastUpdate state updated to 2014-03-12T23:20:59
+2014-03-13 00:04:42 - Light_GF_Living_Table state updated to OFF
+2014-03-13 00:04:42 - Light_GF_Corridor_Ceiling state updated to ON
+2014-03-13 00:04:42 - Light_GF_Kitchen_Ceiling state updated to OFF
+2014-03-13 00:04:42 - Light_GF_Kitchen_Table state updated to OFF
+2014-03-13 00:04:42 - Light_GF_Corridor_Wardrobe state updated to ON
+2014-03-13 00:04:42 - Light_GF_Toilet_Ceiling state updated to OFF
+2014-03-13 00:04:42 - Light_GF_Toilet_Mirror state updated to OFF
+2014-03-13 00:04:42 - Light_FF_Bath_Ceiling state updated to OFF
+2014-03-13 00:04:42 - Light_FF_Bath_Mirror state updated to OFF
+2014-03-13 00:04:42 - Light_FF_Corridor_Ceiling state updated to ON
+2014-03-13 00:04:42 - Light_FF_Office_Ceiling state updated to OFF
+2014-03-13 00:04:42 - Light_FF_Child_Ceiling state updated to OFF
+2014-03-13 00:04:42 - Light_FF_Bed_Ceiling state updated to ON
+2014-03-13 00:04:42 - Light_C_Corridor_Ceiling state updated to ON
+2014-03-13 00:04:42 - Light_C_Staircase state updated to ON
+2014-03-13 00:04:42 - Light_C_Washing_Ceiling state updated to ON
+2014-03-13 00:04:42 - Light_C_Workshop state updated to OFF
+2014-03-13 00:04:42 - Light_Outdoor_Garage state updated to OFF
+2014-03-13 00:04:42 - Light_Outdoor_Terrace state updated to OFF
+2014-03-13 00:04:42 - Light_Outdoor_Frontdoor state updated to OFF
+2014-03-13 00:04:42 - Heating_GF_Corridor state updated to OFF
+2014-03-13 00:04:42 - Heating_GF_Toilet state updated to OFF
+2014-03-13 00:04:42 - Heating_GF_Living state updated to ON
+2014-03-13 00:04:42 - Heating_GF_Kitchen state updated to OFF
+2014-03-13 00:04:42 - Heating_FF_Bath state updated to OFF
+2014-03-13 00:04:42 - Heating_FF_Office state updated to OFF
+2014-03-13 00:04:42 - Heating_FF_Child state updated to OFF
+2014-03-13 00:04:42 - Heating_FF_Bed state updated to OFF
+2014-03-13 00:04:42 - Temperature_Setpoint state updated to 22
+2014-03-13 00:04:42 - Window_GF_Frontdoor state updated to OPEN
+2014-03-13 00:04:42 - Window_GF_Kitchen state updated to CLOSED
+2014-03-13 00:04:42 - Window_GF_Living state updated to CLOSED
+2014-03-13 00:04:42 - Window_GF_Toilet state updated to OPEN
+2014-03-13 00:04:42 - Window_FF_Bath state updated to CLOSED
+2014-03-13 00:04:42 - Window_FF_Bed state updated to CLOSED
+2014-03-13 00:04:42 - Window_FF_Office_Window state updated to CLOSED
+2014-03-13 00:04:42 - Window_FF_Office_Door state updated to OPEN
+2014-03-13 00:04:42 - Garage_Door state updated to OPEN
+2014-03-13 00:04:42 - Temperature_GF_Corridor state updated to 20.70000000
+2014-03-13 00:04:42 - Temperature_GF_Toilet state updated to 22.20000000
+2014-03-13 00:04:42 - Temperature_GF_Living state updated to 22.40000000
+2014-03-13 00:04:42 - Temperature_GF_Kitchen state updated to 22.10000000
+2014-03-13 00:04:42 - Temperature_FF_Bath state updated to 18.50000000
+2014-03-13 00:04:42 - Temperature_FF_Office state updated to 18.50000000
+2014-03-13 00:04:42 - Temperature_FF_Child state updated to 21.60000000
+2014-03-13 00:04:42 - Temperature_FF_Bed state updated to 18.40000000
+2014-03-13 00:04:49 - Light_FF_Bath_Ceiling received command ON
+2014-03-13 00:04:51 - Light_FF_Bath_Ceiling received command OFF
+2014-03-13 00:04:52 - Light_FF_Bath_Ceiling received command ON
+2014-03-13 00:04:59 - Light_FF_Bath_Ceiling received command OFF
+2014-03-13 00:05:00 - Temperature_GF_Corridor state updated to 20.90000000
+2014-03-13 00:05:00 - Temperature_GF_Toilet state updated to 17.80000000
+2014-03-13 00:05:00 - Temperature_GF_Living state updated to 22.20000000
+2014-03-13 00:05:00 - Temperature_GF_Kitchen state updated to 20.20000000
+2014-03-13 00:05:00 - Temperature_FF_Bath state updated to 21.20000000
+2014-03-13 00:05:00 - Temperature_FF_Office state updated to 18.20000000
+2014-03-13 00:05:00 - Temperature_FF_Child state updated to 19.60000000
+2014-03-13 00:05:00 - Temperature_FF_Bed state updated to 20.40000000
+2014-03-13 00:05:00 - Light_FF_Bath_Ceiling received command ON
+2014-03-13 00:05:01 - Light_FF_Bath_Mirror received command ON
+2014-03-13 00:05:02 - Heating_FF_Bath received command ON
+2014-03-13 00:05:04 - Shutter_FF_Bath received command UP
+2014-03-13 00:05:06 - Shutter_FF_Bath received command DOWN
+2014-03-13 00:05:06 - Shutter_FF_Bath received command STOP
+2014-03-13 00:05:07 - Shutter_FF_Bath received command UP
+2014-03-13 00:05:08 - Shutter_FF_Bath received command STOP
+2014-03-13 00:05:09 - Shutter_FF_Bath received command DOWN
+2014-03-13 00:05:48 - Weather_Chart_Period received command 0
+2014-03-13 00:05:49 - Weather_Chart_Period received command 1
+2014-03-13 00:05:50 - Weather_Chart_Period received command 2
+2014-03-13 00:07:19 - Light_GF_Living_Table received command OFF
+2014-03-13 00:07:19 - Light_GF_Corridor_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_GF_Kitchen_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_GF_Kitchen_Table received command OFF
+2014-03-13 00:07:19 - Light_GF_Corridor_Wardrobe received command OFF
+2014-03-13 00:07:19 - Light_GF_Toilet_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_GF_Toilet_Mirror received command OFF
+2014-03-13 00:07:19 - Light_FF_Bath_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_FF_Bath_Mirror received command OFF
+2014-03-13 00:07:19 - Light_FF_Corridor_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_FF_Office_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_FF_Child_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_FF_Bed_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_C_Corridor_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_C_Staircase received command OFF
+2014-03-13 00:07:19 - Light_C_Washing_Ceiling received command OFF
+2014-03-13 00:07:19 - Light_C_Workshop received command OFF
+2014-03-13 00:07:19 - Light_Outdoor_Garage received command OFF
+2014-03-13 00:07:19 - Light_Outdoor_Terrace received command OFF
+2014-03-13 00:07:19 - Light_Outdoor_Frontdoor received command OFF
+2014-03-13 00:07:19 - Lights received command OFF
+2014-03-13 00:10:00 - Temperature_GF_Corridor state updated to 21.70000000
+2014-03-13 00:10:00 - Temperature_GF_Toilet state updated to 17.80000000
+2014-03-13 00:10:00 - Temperature_GF_Living state updated to 18.80000000
+2014-03-13 00:10:00 - Temperature_GF_Kitchen state updated to 22.50000000
+2014-03-13 00:10:00 - Temperature_FF_Bath state updated to 21.20000000
+2014-03-13 00:10:00 - Temperature_FF_Office state updated to 18.60000000
+2014-03-13 00:10:00 - Temperature_FF_Child state updated to 20.70000000
+2014-03-13 00:10:00 - Temperature_FF_Bed state updated to 22.10000000
+2014-03-13 00:13:09 - Light_FF_Bath_Ceiling received command ON
+2014-03-13 00:13:18 - Light_FF_Bath_Ceiling received command OFF
+2014-03-13 00:14:31 - Light_GF_Living_Table received command ON
+2014-03-13 00:14:31 - Light_GF_Living_Table received command ON
+2014-03-13 00:14:32 - Light_GF_Living_Table received command ON
+2014-03-13 00:14:32 - Light_GF_Living_Table received command ON
+2014-03-13 00:14:33 - Light_GF_Living_Table received command OFF
+2014-03-13 00:15:00 - Temperature_GF_Corridor state updated to 18.20000000
+2014-03-13 00:15:00 - Temperature_GF_Toilet state updated to 22.30000000
+2014-03-13 00:15:00 - Temperature_GF_Living state updated to 21.70000000
+2014-03-13 00:15:00 - Temperature_GF_Kitchen state updated to 21.70000000
+2014-03-13 00:15:00 - Temperature_FF_Bath state updated to 20.80000000
+2014-03-13 00:15:00 - Temperature_FF_Office state updated to 19.00000000
+2014-03-13 00:15:00 - Temperature_FF_Child state updated to 19.40000000
+2014-03-13 00:15:00 - Temperature_FF_Bed state updated to 20.30000000
+2014-03-13 00:18:53 - DimmedLight received command ON
+2014-03-13 00:18:53 - DimmedLight state updated to 100
+2014-03-13 00:18:53 - DimmedLight received command INCREASE
+2014-03-13 00:18:53 - DimmedLight state updated to 100
+2014-03-13 00:18:54 - DimmedLight received command ON
+2014-03-13 00:18:54 - DimmedLight state updated to 100
+2014-03-13 00:18:54 - DimmedLight received command ON
+2014-03-13 00:18:54 - DimmedLight state updated to 100
+2014-03-13 00:18:54 - DimmedLight received command ON
+2014-03-13 00:18:54 - DimmedLight state updated to 100
+2014-03-13 00:18:55 - DimmedLight received command OFF
+2014-03-13 00:18:55 - DimmedLight state updated to 0
+2014-03-13 00:18:58 - RGBLight received command ON
+2014-03-13 00:18:58 - RGBLight received command ON
+2014-03-13 00:18:59 - RGBLight received command ON
+2014-03-13 00:18:59 - RGBLight received command ON
+2014-03-13 00:18:59 - RGBLight received command ON
+2014-03-13 00:18:59 - RGBLight received command ON
+2014-03-13 00:19:00 - RGBLight received command ON
+2014-03-13 00:19:00 - RGBLight received command ON
+2014-03-13 00:19:00 - RGBLight received command ON
+2014-03-13 00:19:01 - RGBLight received command OFF
+2014-03-13 00:19:01 - RGBLight received command OFF
+2014-03-13 00:19:01 - RGBLight received command OFF
+2014-03-13 00:19:02 - RGBLight received command ON
+2014-03-13 00:19:03 - DemoShutter received command UP
+2014-03-13 00:19:05 - DemoShutter received command DOWN
+2014-03-13 00:19:07 - DemoBlinds received command INCREASE
+2014-03-13 00:19:08 - DemoBlinds received command INCREASE
+2014-03-13 00:19:09 - DemoBlinds received command INCREASE
+2014-03-13 00:19:11 - DemoSwitch received command ON
+2014-03-13 00:19:13 - DemoSwitch received command ON
+2014-03-13 00:19:15 - DemoSwitch received command ON
+2014-03-13 00:19:17 - DemoSwitch received command OFF
+2014-03-13 00:20:00 - Temperature_GF_Corridor state updated to 21.60000000
+2014-03-13 00:20:00 - Temperature_GF_Toilet state updated to 19.70000000
+2014-03-13 00:20:00 - Temperature_GF_Living state updated to 22.50000000
+2014-03-13 00:20:00 - Temperature_GF_Kitchen state updated to 21.40000000
+2014-03-13 00:20:00 - Temperature_FF_Bath state updated to 18.80000000
+2014-03-13 00:20:00 - Temperature_FF_Office state updated to 19.70000000
+2014-03-13 00:20:00 - Temperature_FF_Child state updated to 18.80000000
+2014-03-13 00:20:00 - Temperature_FF_Bed state updated to 18.50000000
