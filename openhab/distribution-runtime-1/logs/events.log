@@ -266,3 +266,166 @@
 2014-03-13 00:20:00 - Temperature_FF_Office state updated to 19.70000000
 2014-03-13 00:20:00 - Temperature_FF_Child state updated to 18.80000000
 2014-03-13 00:20:00 - Temperature_FF_Bed state updated to 18.50000000
+2014-03-14 11:57:54 - Light_Presence received command ON
+2014-03-14 11:57:54 - Light_Presence received command OFF
+2014-03-14 11:57:56 - Light_Presence received command ON
+2014-03-14 11:58:03 - Light_GF_Hall received command ON
+2014-03-14 11:58:04 - Light_GF_Hall received command OFF
+2014-03-14 12:05:13 - Presence_Outdoor received command ON
+2014-03-14 12:05:14 - Presence_Outdoor received command ON
+2014-03-14 12:05:14 - Presence_Outdoor received command ON
+2014-03-14 12:05:15 - Presence_Outdoor received command OFF
+2014-03-14 12:05:15 - Presence_Outdoor received command OFF
+2014-03-14 12:05:15 - Presence_Outdoor received command OFF
+2014-03-14 12:10:06 - Light_Presence received command ON
+2014-03-14 12:10:07 - Light_Presence received command OFF
+2014-03-14 12:11:51 - Light_GF_Hall received command ON
+2014-03-14 12:11:52 - Light_GF_Hall received command OFF
+2014-03-14 12:11:53 - Light_GF_Hall received command ON
+2014-03-14 12:11:54 - Light_GF_Hall received command OFF
+2014-03-14 12:11:54 - Light_GF_Hall received command ON
+2014-03-14 12:11:54 - Light_GF_Hall received command OFF
+2014-03-14 12:11:54 - Light_GF_Hall received command ON
+2014-03-14 12:11:54 - Light_GF_Hall received command OFF
+2014-03-14 12:11:54 - Light_GF_Hall received command ON
+2014-03-14 12:11:55 - Light_GF_Hall received command OFF
+2014-03-14 12:11:55 - Light_GF_Hall received command ON
+2014-03-14 12:11:55 - Light_GF_Hall received command OFF
+2014-03-14 12:11:55 - Light_GF_Hall received command ON
+2014-03-14 12:11:56 - Light_GF_Hall received command OFF
+2014-03-14 12:11:56 - Light_GF_Hall received command ON
+2014-03-14 12:11:57 - Light_GF_Hall received command OFF
+2014-03-14 12:11:57 - Light_GF_Hall received command ON
+2014-03-14 12:11:57 - Light_GF_Hall received command OFF
+2014-03-14 12:11:57 - Light_GF_Hall received command ON
+2014-03-14 12:11:58 - Light_GF_Hall received command OFF
+2014-03-14 12:11:58 - Light_GF_Hall received command ON
+2014-03-14 12:11:58 - Light_GF_Hall received command OFF
+2014-03-14 12:11:59 - Light_GF_Hall received command ON
+2014-03-14 12:11:59 - Light_GF_Hall received command OFF
+2014-03-14 12:11:59 - Light_GF_Hall received command ON
+2014-03-14 12:12:00 - Light_GF_Hall received command OFF
+2014-03-14 12:12:00 - Light_GF_Hall received command ON
+2014-03-14 12:12:00 - Light_GF_Hall received command OFF
+2014-03-14 12:12:00 - Light_GF_Hall received command ON
+2014-03-14 12:12:01 - Light_GF_Hall received command OFF
+2014-03-14 12:12:01 - Light_GF_Hall received command ON
+2014-03-14 12:12:01 - Light_GF_Hall received command OFF
+2014-03-14 12:12:01 - Light_GF_Hall received command ON
+2014-03-14 12:12:01 - Light_GF_Hall received command OFF
+2014-03-14 12:13:54 - Light_GF_Hall received command OFF
+2014-03-14 12:13:54 - Light_GF_Hall received command OFF
+2014-03-14 12:13:55 - Light_GF_Hall received command OFF
+2014-03-14 12:13:55 - Light_GF_Hall received command OFF
+2014-03-14 12:13:56 - Light_GF_Hall received command ON
+2014-03-14 12:13:56 - Light_GF_Hall received command ON
+2014-03-14 12:13:57 - Light_GF_Hall received command OFF
+2014-03-14 12:13:58 - Light_GF_Hall received command ON
+2014-03-14 12:13:59 - Light_GF_Hall received command OFF
+2014-03-14 12:14:00 - Light_GF_Hall received command ON
+2014-03-14 12:14:01 - Light_GF_Hall received command OFF
+2014-03-14 12:14:02 - Light_GF_Hall received command ON
+2014-03-14 12:14:02 - Light_GF_Hall received command OFF
+2014-03-14 12:14:04 - Light_GF_Hall received command ON
+2014-03-14 12:14:04 - Light_GF_Hall received command ON
+2014-03-14 12:14:04 - Light_GF_Hall received command ON
+2014-03-14 12:14:04 - Light_GF_Hall received command ON
+2014-03-14 12:14:04 - Light_GF_Hall received command ON
+2014-03-14 12:14:05 - Light_GF_Hall received command OFF
+2014-03-14 12:14:07 - Light_GF_Hall received command ON
+2014-03-14 12:18:26 - Light_Presence received command ON
+2014-03-14 12:18:33 - Light_GF_Hall received command ON
+2014-03-14 12:18:35 - Light_GF_Hall received command OFF
+2014-03-14 12:18:36 - Light_GF_Hall received command ON
+2014-03-14 12:18:38 - Light_GF_Hall received command OFF
+2014-03-14 12:22:04 - Light_GF_Hall received command ON
+2014-03-14 12:22:04 - Light_GF_Hall received command ON
+2014-03-14 12:22:05 - Light_GF_Hall received command ON
+2014-03-14 12:22:06 - Light_GF_Hall received command OFF
+2014-03-14 12:30:48 - Light_GF_Hall received command ON
+2014-03-14 12:30:48 - Light_GF_Hall state updated to 100
+2014-03-14 12:30:48 - Luminosite_Hall state updated to 100
+2014-03-14 12:30:51 - Light_GF_Hall received command OFF
+2014-03-14 12:30:51 - Light_GF_Hall state updated to 0
+2014-03-14 12:30:51 - Luminosite_Hall state updated to 0
+2014-03-14 12:30:52 - Light_GF_Hall received command ON
+2014-03-14 12:30:52 - Light_GF_Hall state updated to 100
+2014-03-14 12:30:52 - Luminosite_Hall state updated to 100
+2014-03-14 12:30:53 - Light_GF_Hall received command OFF
+2014-03-14 12:30:53 - Light_GF_Hall state updated to 0
+2014-03-14 12:30:53 - Luminosite_Hall state updated to 0
+2014-03-14 12:30:54 - Light_GF_Hall received command ON
+2014-03-14 12:30:54 - Light_GF_Hall state updated to 100
+2014-03-14 12:30:54 - Luminosite_Hall state updated to 100
+2014-03-14 12:30:58 - Light_GF_Hall received command ON
+2014-03-14 12:30:58 - Light_GF_Hall state updated to 100
+2014-03-14 12:30:58 - Luminosite_Hall state updated to 100
+2014-03-14 12:30:58 - Light_GF_Hall received command OFF
+2014-03-14 12:30:58 - Light_GF_Hall state updated to 0
+2014-03-14 12:30:58 - Luminosite_Hall state updated to 0
+2014-03-14 12:31:00 - Light_GF_Hall received command ON
+2014-03-14 12:31:00 - Light_GF_Hall state updated to 100
+2014-03-14 12:31:00 - Luminosite_Hall state updated to 100
+2014-03-14 12:31:01 - Light_GF_Hall received command OFF
+2014-03-14 12:31:01 - Light_GF_Hall state updated to 0
+2014-03-14 12:31:01 - Luminosite_Hall state updated to 0
+2014-03-14 12:31:02 - Light_GF_Hall received command ON
+2014-03-14 12:31:02 - Light_GF_Hall state updated to 100
+2014-03-14 12:31:02 - Luminosite_Hall state updated to 100
+2014-03-14 12:31:04 - Light_GF_Hall received command OFF
+2014-03-14 12:31:04 - Light_GF_Hall state updated to 0
+2014-03-14 12:31:04 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:23 - Light_GF_Hall received command ON
+2014-03-14 12:32:23 - Light_GF_Hall state updated to 100
+2014-03-14 12:32:23 - Luminosite_Hall state updated to 100
+2014-03-14 12:32:28 - Light_GF_Hall received command OFF
+2014-03-14 12:32:28 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:28 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:31 - Light_GF_Hall received command OFF
+2014-03-14 12:32:31 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:31 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:31 - Light_GF_Hall received command OFF
+2014-03-14 12:32:31 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:31 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:32 - Light_GF_Hall received command OFF
+2014-03-14 12:32:32 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:32 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:32 - Light_GF_Hall received command DECREASE
+2014-03-14 12:32:32 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:32 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:33 - Light_GF_Hall received command OFF
+2014-03-14 12:32:33 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:33 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:33 - Light_GF_Hall received command OFF
+2014-03-14 12:32:33 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:33 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:34 - Light_GF_Hall received command OFF
+2014-03-14 12:32:34 - Light_GF_Hall state updated to 0
+2014-03-14 12:32:34 - Luminosite_Hall state updated to 0
+2014-03-14 12:32:35 - Light_GF_Hall received command ON
+2014-03-14 12:32:35 - Light_GF_Hall state updated to 100
+2014-03-14 12:32:35 - Luminosite_Hall state updated to 100
+2014-03-14 12:32:36 - Light_GF_Hall received command ON
+2014-03-14 12:32:36 - Light_GF_Hall state updated to 100
+2014-03-14 12:32:36 - Luminosite_Hall state updated to 100
+2014-03-14 12:32:36 - Light_GF_Hall received command ON
+2014-03-14 12:32:36 - Light_GF_Hall state updated to 100
+2014-03-14 12:32:36 - Luminosite_Hall state updated to 100
+2014-03-14 12:32:37 - Light_GF_Hall received command ON
+2014-03-14 12:32:37 - Light_GF_Hall state updated to 100
+2014-03-14 12:32:37 - Luminosite_Hall state updated to 100
+2014-03-14 12:37:54 - Light_GF_Hall received command OFF
+2014-03-14 12:37:54 - Light_GF_Hall state updated to 0
+2014-03-14 12:37:54 - Luminosite_Hall state updated to 0
+2014-03-14 12:37:54 - Light_GF_Hall received command OFF
+2014-03-14 12:37:54 - Light_GF_Hall state updated to 0
+2014-03-14 12:37:54 - Luminosite_Hall state updated to 0
+2014-03-14 12:37:55 - Light_GF_Hall received command OFF
+2014-03-14 12:37:55 - Light_GF_Hall state updated to 0
+2014-03-14 12:37:55 - Luminosite_Hall state updated to 0
+2014-03-14 12:37:56 - Light_GF_Hall received command ON
+2014-03-14 12:37:56 - Light_GF_Hall state updated to 100
+2014-03-14 12:37:56 - Luminosite_Hall state updated to 100
+2014-03-14 12:37:57 - Light_GF_Hall received command OFF
+2014-03-14 12:37:57 - Light_GF_Hall state updated to 0
+2014-03-14 12:37:57 - Luminosite_Hall state updated to 0
