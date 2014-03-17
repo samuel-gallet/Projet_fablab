@@ -556,3 +556,2181 @@ Command-line arguments:  -console
 
 !ENTRY org.eclipse.equinox.ds 4 0 2014-03-14 12:21:40.386
 !MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 17:01:54.196 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:57.383
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:57.383
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:57.412
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:57.412
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:58.235
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:01:58.235
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.743
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.743
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.749
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.749
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.777
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 17:02:09.777
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:00:33.381 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:35.822
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:35.823
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:35.848
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:35.848
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:36.577
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:36.577
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.840
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.840
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.844
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.844
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.866
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:00:47.867
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:32:44.035 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:46.697
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:46.697
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:46.725
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:46.725
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:47.330
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:47.330
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.602
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.610
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.616
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.616
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.641
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:32:58.641
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:37:43.680 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:46.338
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:46.338
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:46.365
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:46.365
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:47.021
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:47.029
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.279
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.288
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.294
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.294
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.316
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:37:58.317
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:53:59.493 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.268
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.269
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.299
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.299
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.932
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:02.941
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.119
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.127
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.133
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.133
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.157
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:54:14.158
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:57:50.213 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:52.796
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:52.797
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:52.828
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:52.829
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:53.465
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:57:53.473
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.679
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.687
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.692
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.692
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.716
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:04.716
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 18:58:37.120 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:39.452
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:39.453
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:39.476
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:39.476
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:40.105
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:40.114
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.305
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.313
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.319
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.319
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.345
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 18:58:51.345
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 19:03:11.192 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:13.443
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:13.444
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:13.469
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:13.470
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:14.149
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:14.150
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.256
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.265
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.271
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.271
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.294
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:03:25.294
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 19:04:32.505 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:34.719
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:34.720
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:34.753
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:34.754
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:35.397
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:35.405
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.510
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.519
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.528
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.528
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.567
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:04:46.567
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 19:06:24.444 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:26.931
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:26.931
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:26.959
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:26.959
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:27.607
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:27.608
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.839
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.847
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.853
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.853
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.878
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:06:38.878
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+!SESSION 2014-03-17 19:08:01.096 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:03.419
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:03.419
+!MESSAGE Could not bind a reference of component org.openhab.core.itemregistry. The reference is: Reference[name = ItemProvider, interface = org.openhab.core.items.ItemProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addItemProvider, unbind = removeItemProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:03.446
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:03.446
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.extensions. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:04.111
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:04.112
+!MESSAGE Could not bind a reference of component org.openhab.core.persistence.manager. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.274
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.283
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart. The reference is: Reference[name = ChartProvider, interface = org.openhab.ui.chart.ChartProvider, policy = dynamic, cardinality = 0..n, target = null, bind = addChartProvider, unbind = removeChartProvider]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.289
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.289
+!MESSAGE Could not bind a reference of component org.openhab.ui.chart.defaultprovider. The reference is: Reference[name = PersistenceService, interface = org.openhab.core.persistence.PersistenceService, policy = dynamic, cardinality = 0..n, target = null, bind = addPersistenceService, unbind = removePersistenceService]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.314
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2014-03-17 19:08:15.315
+!MESSAGE Could not bind a reference of component org.openhab.ui.webapp.pagerenderer. The reference is: Reference[name = WidgetRenderer, interface = org.openhab.ui.webapp.render.WidgetRenderer, policy = dynamic, cardinality = 0..n, target = null, bind = addWidgetRenderer, unbind = removeWidgetRenderer]
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.654
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.663
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.664
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.664
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.665
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.666
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.667
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.669
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.670
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.670
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.671
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:35.672
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:39.606
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:43.736
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:47.896
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:51.943
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:08:56.268
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:00.482
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:04.641
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:08.949
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:13.291
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:17.472
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:21.621
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:25.933
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:30.175
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:34.478
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:38.737
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:42.968
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:47.247
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:51.812
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:09:56.149
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:10:00.508
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)
+
+!ENTRY org.eclipse.equinox.event 4 0 2014-03-17 19:10:04.835
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=openhab/command/Arduino] to handler org.openhab.core.autoupdate.internal.AutoUpdateBinding@e579ca8
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:713)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRule(RuleEngine.java:290)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:299)
+	at org.openhab.model.rule.internal.engine.RuleEngine.executeRules(RuleEngine.java:294)
+	at org.openhab.model.rule.internal.engine.RuleEngine.stateUpdated(RuleEngine.java:181)
+	at org.openhab.core.items.GenericItem.notifyListeners(GenericItem.java:108)
+	at org.openhab.core.items.GenericItem.setState(GenericItem.java:100)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.postUpdate(AutoUpdateBinding.java:110)
+	at org.openhab.core.autoupdate.internal.AutoUpdateBinding.receiveCommand(AutoUpdateBinding.java:81)
+	at org.openhab.core.events.AbstractEventSubscriber.handleEvent(AbstractEventSubscriber.java:42)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.openhab.core.internal.events.EventPublisherImpl.sendCommand(EventPublisherImpl.java:56)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:84)
+	at org.openhab.model.script.actions.BusEvent.sendCommand(BusEvent.java:51)
+	at sun.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.invokeOperation(XbaseInterpreter.java:729)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._featureCallOperation(XbaseInterpreter.java:713)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.openhab.model.script.interpreter.ScriptInterpreter.internalFeatureCallDispatch(ScriptInterpreter.java:69)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateAbstractFeatureCall(XbaseInterpreter.java:658)
+	at sun.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter._evaluateBlockExpression(XbaseInterpreter.java:321)
+	at sun.reflect.GeneratedMethodAccessor43.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.xtext.util.PolymorphicDispatcher.invoke(PolymorphicDispatcher.java:291)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.internalEvaluate(XbaseInterpreter.java:218)
+	at org.eclipse.xtext.xbase.interpreter.impl.XbaseInterpreter.evaluate(XbaseInterpreter.java:204)
+	at org.openhab.model.script.internal.engine.ScriptImpl.execute(ScriptImpl.java:59)
+	at org.openhab.core.scriptengine.ScriptExecutionThread.run(ScriptExecutionThread.java:44)

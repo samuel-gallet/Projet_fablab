@@ -5,6 +5,7 @@ Group gGF		(All)
 Group gFF		(All)
 
 Group gPerson (All)
+Group gDevice (All)
 
 Group GF_Hall "hall" <groundfloor> (gGF)
 
@@ -12,9 +13,13 @@ Group GF_Hall "hall" <groundfloor> (gGF)
 Group:Switch:OR(ON, OFF) Lights "Lampe [(%d)]" (All)
 
 /* Lights */
-Dimmer Light_GF_Hall "Lampe [(%d)]" <slider> (GF_Hall)
+Switch Light_GF_Hall "Lampe [(%d)]" (GF_Hall)
 Switch Light_Presence "door" <siren> (gOut)	
 
 
 /* Luminosité */
 Number Luminosite_Hall "Luminosite [%d]" <slider> (GF_Hall)
+
+/* Arduino */
+String Arduino "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem1421"}
+

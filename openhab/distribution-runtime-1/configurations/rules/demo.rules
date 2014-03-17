@@ -1,6 +1,9 @@
 import org.openhab.core.library.types.*
 import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
+import java.util.StringTokenizer
+
+var String ArduinoLuminosityUpdate = ""
 
 
 rule Startup
@@ -17,28 +20,34 @@ then
 	say("Good bye!")
 end
 
-rule "MAJ Luminosité hall"
+rule "MAJ Luminosité hall Arduino"
 when
-	Item Light_GF_Hall received command
+	Item Arduino received update
 	then
-		var Number percent = 0
-		if(Light_GF_Hall.state instanceof DecimalType) {
-				percent = Light_GF_Hall.state as DecimalType
+		ArduinoLuminosityUpdate = ArduinoLuminosityUpdate + Arduino.state.toString.trim
+		println("Arduino Luminosity Update : " + ArduinoLuminosityUpdate)
+		val updates = ArduinoLuminosityUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("Luminosity") && update.contains("=")) {
+				var IndexLum = update.indexOf("=")
+				var Number lum = Integer::parseInt(update.substring(IndexLum + 1, update.indexOf(";")))
+				lum = lum * 100 / 155
+				if (lum == 0) {
+					sendCommand(Light_GF_Hall, OFF)
+				} else {
+					sendCommand(Light_GF_Hall, ON)
+				}
+				postUpdate(Luminosite_Hall, lum)
 			}
-			
-		if(receivedCommand == INCREASE) {
-			percent = percent + 5
 		}
-		if(receivedCommand == DECREASE) {
-			percent = percent - 5
-		}
-		if(percent < 0) {
-			percent = 0
-		}
-		if(percent > 100) {
-			percent = 100
-			
-		}
-		postUpdate(Light_GF_Hall, percent);
-		postUpdate(Luminosite_Hall, percent);
+		ArduinoLuminosityUpdate = ""
+		sendCommand(Arduino, "ok")
+end
+
+rule "test"
+when
+	Item Light_Presence received command
+	then
+		sendCommand(Arduino, "salut")
 end
