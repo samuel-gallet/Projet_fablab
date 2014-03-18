@@ -1,0 +1,565 @@
+
+// Actions available in Scripts and Rules http://code.google.com/p/openhab/wiki/Actions
+// Xtend_Expressions http://www.eclipse.org/xtend/documentation.html#Xtend_Expressions
+
+import java.util.StringTokenizer
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+
+var Timer timer = null
+var String ArduinoUpdate = ""
+var String ArduinoAccessUpdate = ""
+var String ArduinoOutdoorUpdate = ""
+var String language = "en"
+var int personCounter = 0
+var boolean alarmFlag = false
+
+
+rule Startup
+when 
+	System started
+then
+	switch(language){
+		case "fr" : say("Bienvenue à Experimenta !")
+		default : 	say("Welcome at Experimenta !")
+	}	
+end
+
+rule Goodbye
+when 
+	System shuts down
+then
+	switch(language){
+		case "fr" : say("A bientôt à Experimenta !")
+		default : 	say("Good bye, Experimenta !")
+	}
+end	
+
+/**
+ * This is a demo rule which simulates a real dimmer by reacting to increase/decrease commands 
+ * and posting an updated state on the bus 
+ */
+rule "Dimmed Light"
+	when
+		Item DimmedLight received command
+	then
+		var Number percent = 0
+		if(DimmedLight.state instanceof DecimalType) percent = DimmedLight.state as DecimalType 
+			
+		if(receivedCommand==INCREASE) percent = percent + 5
+		if(receivedCommand==DECREASE) percent = percent - 5
+
+		if(percent<0)   percent = 0
+		if(percent>100) percent = 100
+		postUpdate(DimmedLight, percent);
+end
+
+/**
+ * This rule demonstrates how a NumberItem can be used to easily control the local sound system.
+ * A selection widget in the UI provides easy access for this
+ */
+rule "Select Radio Station"
+	when
+		Item Radio_Station received command
+	then
+		//if(receivedCommand.equals("0")) playStream(null)
+		
+		switch(language){
+			case "fr" : {
+				switch(receivedCommand) {
+					case 0 : playStream(null)
+					case 1 : say("Vous écoutez France Inter")
+					case 2 : say("Vous écoutez Fipe")
+					case 3 : say("Vous écoutez France Info")
+					case 4 : say("Vous écoutez Radio Campus Grenoble")
+					case 5 : say("Vous écoutez Radio Latina")
+				}
+				switch(receivedCommand) {
+					case 0 : say("La radio est éteinte")
+					case 1 : playStream("http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u")
+					case 2 : playStream("http://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3u")
+					case 3 : playStream("http://www.tv-radio.com/station/france_info/france_info.m3u")
+					case 4 : playStream("http://live.campusgrenoble.org:9000/rcg112")
+					case 5 : playStream("http://broadcast.infomaniak.net/start-latina-high.mp3")
+				}
+						
+			}
+			default : 	{
+				switch(receivedCommand) {
+					case 0 : playStream(null)
+					case 1 : say("You are listening France Inter")
+					case 2 : say("You are listening  Feap")
+					case 3 : say("You are listening  France Info")
+					case 4 : say("You are listening  Radio Campus Grenoble")
+					case 5 : say("You are listening  Radio Latina")
+				}
+				switch(receivedCommand) {
+					case 0 : say("The radio is turned off !")
+					case 1 : playStream("http://www.tv-radio.com/station/france_inter_mp3/france_inter_mp3-128k.m3u")
+					case 2 : playStream("http://www.tv-radio.com/station/fip_mp3/fip_mp3-128k.m3u")
+					case 3 : playStream("http://www.tv-radio.com/station/france_info/france_info.m3u")
+					case 4 : playStream("http://live.campusgrenoble.org:9000/rcg112")
+					case 5 : playStream("http://broadcast.infomaniak.net/start-latina-high.mp3")
+				}
+				
+			}
+		}
+	
+end
+
+/**
+ * This rules controls the volume on the local host
+ */
+rule "Volume control"
+	when
+		Item Volume received command
+	then
+		if(receivedCommand instanceof PercentType) {
+			setMasterVolume(receivedCommand as PercentType)
+		} else {
+			if(receivedCommand==INCREASE) increaseMasterVolume(20)
+			if(receivedCommand==DECREASE) decreaseMasterVolume(20)	
+		}
+		postUpdate(Volume, masterVolume * 100)
+end
+
+rule "Say temperature on update"
+	when 
+		Item Weather_Temperature received update
+	then
+		switch(language){
+			case "fr" : say("La température extérieure est de " + Weather_Temperature.state.format("%d") + " degrés celsius")
+			default : 	say("The temperature outside is " + Weather_Temperature.state.format("%d") + " degrees celsius")
+		}
+end
+
+/**
+ * The following rules help initializing the demo items with some helpful states.
+ */
+rule "Initialize light states"
+	when
+		System started
+	then
+		Lights?.members.forEach(light|
+			postUpdate(light, if(Math::random > 0.7) ON else OFF)
+		)
+end
+
+rule "Initialize heating states"
+	when 
+		System started
+	then
+		Heating?.members.forEach(heating|
+			postUpdate(heating, if(Math::random > 0.8) ON else OFF)
+		)
+		postUpdate(Temperature_Setpoint, 22)
+end
+
+rule "Initialize contact states"
+	when 
+		System started
+	then
+		Windows?.members.forEach(window|
+			postUpdate(window, if(Math::random > 0.5) OPEN else CLOSED)
+		)
+end
+
+rule "Set random room temperatures"
+	when 
+		System started or
+		Time cron "0 0/5 * * * ?"
+	then
+		Temperature?.members.forEach(temperature|
+			postUpdate(temperature, 20.0 + (25.0 - (Math::random * 50.0).intValue) / 10.0)
+		)
+end
+
+rule "Update max and min temperatures"
+when
+	Item Weather_Temperature changed or
+	Time cron "0 0 0 * * ?" or
+	System started
+then	
+	postUpdate(Weather_Temp_Max, Weather_Temperature.maximumSince(now.toDateMidnight).state)
+	postUpdate(Weather_Temp_Min, Weather_Temperature.minimumSince(now.toDateMidnight).state)
+end
+
+/** shows how to use sensor values from the past */
+rule "Persistence Demo"
+when
+	Time cron "0 * * * * ?"
+then	
+	if(Weather_Temperature.changedSince(now.minusMinutes(1))) {
+		println("2 minutes ago, the temperature was " + Weather_Temperature.historicState(now.minusMinutes(2)) + " degrees.")		
+	}
+end
+
+/** 
+ * shows how to check recent switch states - very helpful to avoid executing something too often, just
+ * because somebody presses a button too often (e.g. sending a notification, if the doorbell button is pressed)
+ */
+rule "Persistence Demo 2"
+when
+	Item DemoSwitch received command
+then
+	if(!DemoSwitch.changedSince(now.minusSeconds(5))) {
+		logInfo("Persistence Demo", "You did not press this button during the last 5 seconds!")
+	}
+end
+
+rule "Timer Demo"
+when
+	Item Light_GF_Corridor_Ceiling received command
+then
+	if(receivedCommand==ON) {
+		if(timer==null) {
+			// first ON command, so create a timer to turn the light off again
+			timer = createTimer(now.plusSeconds(10)) [|
+				sendCommand(Light_FF_Corridor_Ceiling, OFF)
+			]
+		} else {
+			// subsequent ON command, so reschedule the existing timer
+			timer.reschedule(now.plusSeconds(10))
+		}
+	} else if(receivedCommand==OFF) {
+		// remove any previously scheduled timer
+		if(timer!=null) {
+			timer.cancel
+			timer = null
+		}	
+	}
+end
+
+
+
+
+rule "Arduino (Indoor) on update"
+	when 
+	     Item Arduino received update
+	then
+	    ArduinoUpdate = ArduinoUpdate + Arduino.state.toString.trim
+	    println("ArduinoUpdate: " + ArduinoUpdate)
+
+   	    val updates = ArduinoUpdate.split("\n")
+	    for(update : updates) {
+			println("-->" + update)
+			if (update.contains("/temperature/") && update.contains("=")) {
+			   	var int equalsign=update.indexOf('=')
+				var int id= Integer::parseInt(update.substring("/temperature/".length, equalsign))
+				var String valueAsString = update.substring(equalsign +1, update.indexOf(";"))
+				println(id + "-->" + valueAsString)
+				var Number value = 0.0f
+				value = Float::parseFloat(valueAsString)
+
+				switch id {
+				case 0:  postUpdate(Arduino_T0, value)
+				case 1:  postUpdate(Arduino_T1, value)		
+				case 2:  postUpdate(Arduino_T2, value)		
+				case 3:  postUpdate(Arduino_T3, value)		
+				default: println("ERROR with "+ update)
+				}
+			}
+			if (update.contains("/humidity/") && update.contains("=")) {
+			   	var int equalsign=update.indexOf('=')
+				var int id= Integer::parseInt(update.substring("/humidity/".length, equalsign))
+				var String valueAsString = update.substring(equalsign +1, update.indexOf(";"))
+				println(id + "-->" + valueAsString)
+				var Number value = 0.0f
+				value = Float::parseFloat(valueAsString)
+
+				switch id {
+				case 0:  postUpdate(Arduino_H0, value)
+				case 1:  postUpdate(Arduino_H1, value)		
+				case 2:  postUpdate(Arduino_H2, value)		
+				case 3:  postUpdate(Arduino_H3, value)		
+				default: println("ERROR with "+ update)
+				}
+			}
+	}
+	ArduinoUpdate = ""
+
+end
+
+
+rule "Arduino Switch 0"
+	when
+		Item Arduino_R0 received update
+	then
+		sendCommand(Arduino, "/switch/1=" + (if(Arduino_R0.state==ON) "on;" else "off;"))
+		ArduinoUpdate = ""
+end
+
+rule "Arduino Switch 1"
+	when
+		Item Arduino_R1 received update
+	then
+		sendCommand(Arduino, "/switch/1=" + (if(Arduino_R1.state==ON) "on;" else "off;"))
+		ArduinoUpdate = ""
+end
+
+rule "Arduino Switch 2"
+	when
+ 		Item Arduino_R2 received update
+	then
+		sendCommand(Arduino, "/switch/2=" + (if(Arduino_R2.state==ON) "on;" else "off;"))
+		ArduinoUpdate = ""
+end
+
+
+rule "Arduino Switch 3"
+	when
+		Item Arduino_R3 received update
+	then
+		sendCommand(Arduino, "/switch/3=" + (if(Arduino_R3.state==ON) "on;" else "off;"))
+		ArduinoUpdate = ""
+end
+
+rule "Arduino All Temperature"
+	when
+		Time cron "1 * * * * ?"
+	then	
+		sendCommand(Arduino, "/temperature/*;")
+		ArduinoUpdate = ""
+
+end
+
+rule "Arduino All Humidity"
+	when
+		Time cron "1 * * * * ?"
+	then	
+		sendCommand(Arduino, "/humidity/*;")
+		ArduinoUpdate = ""
+end
+
+rule "Arduino All Brightness"
+	when
+		Time cron "1 * * * * ?"
+	then	
+		sendCommand(Arduino, "/brightness/*;")
+		ArduinoUpdate = ""
+end
+
+
+//==================================
+
+
+rule "Person Philippe"
+	when
+		Item Person_Philippe received update
+	then
+		if(Person_Philippe.state==ON) {
+			personCounter=personCounter+1;
+		} else {
+			personCounter=personCounter-1;
+			switch(language){
+				case "fr" : {
+					say("Au revoir, Philippe !")
+				}
+				default : {
+					say("Goodbye, Philip !")
+				}	
+			}						
+		}
+		println("-->" + personCounter + " occupants")
+		if(personCounter==0) {
+			alarmFlag=true
+			sendCommand(Radio_Station, 0)
+			switch(language){
+				case "fr" : {
+					say("La maison sera sous alarme dans 1 minute !")
+				}
+				default : {
+					say("The house will be under alarm in 1 minute !")
+				}	
+			}									
+		}
+end
+
+rule "Person Catherine"
+	when
+		Item Person_Catherine received update
+	then
+		if(Person_Catherine.state==ON) {
+			personCounter=personCounter+1;
+		} else {
+			personCounter=personCounter-1;
+		}
+		println("-->" + personCounter + " occupants")
+		if(personCounter==0) {
+			alarmFlag=true
+			sendCommand(Radio_Station, 0)
+			switch(language){
+				case "fr" : {
+					say("La maison sera sous alarme dans 1 minute !")
+				}
+				default : {
+					say("The house will be under alarm in 1 minute !")
+				}	
+			}									
+		}
+end
+
+rule "Arduino Access Control on update"
+	when 
+	     Item ArduinoAccess received update
+	then
+	    ArduinoAccessUpdate = ArduinoAccessUpdate + ArduinoAccess.state.toString.trim
+	    println("ArduinoAccessUpdate: " + ArduinoAccessUpdate)
+
+   	    val updates = ArduinoAccessUpdate.split("\n")
+	    for(update : updates) {
+			if (update.contains("/keypad=")) {
+			   	var int equalsign=update.indexOf('=')
+				var String valueAsString = update.substring(equalsign+1, update.indexOf(";"))
+
+				switch valueAsString {
+				case "1234": {
+					personCounter=personCounter+1
+					alarmFlag=false
+
+					postUpdate(Person_Philippe, ON)
+					switch(language){
+						case "fr" : {
+							say("Bienvenue à la maison, Philippe !")
+							sendCommand(ArduinoAccess, "/lcd=Bienvenue Philippe")	
+						}
+						default : {
+							say("Welcome home, Philip !")
+							sendCommand(ArduinoAccess, "/lcd=Welcome Philippe")	
+						}	
+					}						
+				}
+				case "2345": {
+					personCounter=personCounter+1
+					alarmFlag=false
+
+					postUpdate(Person_Catherine, ON)
+					switch(language){
+						case "fr" : {
+							say("Bienvenue à la maison, Catherine !")
+							sendCommand(ArduinoAccess, "/lcd=Bienvenue Catherine")	
+						}
+						default : {
+							say("Welcome home, Catherin !")
+							sendCommand(ArduinoAccess, "/lcd=Welcome Catherine")	
+						}	
+					}						
+				}
+				default: {
+					switch(language){
+						case "fr" : {
+							say("Code PIN erroné. Recommencez !")
+							sendCommand(ArduinoAccess, "/lcd=Code PIN errone")	
+						}
+						default : {
+							say("Bad PIN code. Try again, please !")
+							sendCommand(ArduinoAccess, "/lcd=Bad PIN code")	
+						}	
+					}						
+				}
+				
+			}	
+		}
+	}
+	ArduinoAccessUpdate = ""
+end
+
+
+rule "Arduino Outdoor (AgriStation) on update"
+	when 
+	     Item ArduinoOutdoor received update
+	then
+	    ArduinoOutdoorUpdate = ArduinoOutdoorUpdate + ArduinoOutdoor.state.toString.trim
+	    println("ArduinoOutdoorUpdate: " + ArduinoOutdoorUpdate)
+
+/*
+AgriStation messages are :
+/soil/humidity=<0..100>;
+/light/intensity=<0..10>;
+/rain/mmh=<int>;
+/air/humidity=<float of %>;
+/air/temperature=<float of C°>;
+/air/dewpoint=<float of C°>;
+
+
+Number ArduinoOutdoor_Light 	"Ensoleilement [% °]"	<sun>	(gArduino, gTemperature, Outdoor, Weather)
+Number ArduinoOutdoor_AirTemp 	"Température Air [%.1f °C]"	<temperature>	(gArduino, gTemperature, Outdoor, Weather)
+Number ArduinoOutdoor_AirHum 	"Humidité Air [%.1f °]"	<humidity>	(gArduino, gHumidity, Outdoor, Weather)
+Number ArduinoOutdoor_DewPoint 	"Point de rosée [%.1f °C]"	<temperature>	(gArduino, gHumidity, Outdoor, Weather)
+Number ArduinoOutdoor_SoilHum 	"Humidité Sol [% °]"	<humidity>	(gArduino, gHumidity, Outdoor, Weather)
+Number ArduinoOutdoor_RainDrop 	"Pluviométrie [% mmm]" <rain>	(gArduino, Outdoor, Weather)
+
+
+*/
+/*
+ * 
+ *    	    val messages = ArduinoOutdoorUpdate.split("\n")
+	    for(message : messages) {
+ 
+ */
+
+		val StringTokenizer st = new StringTokenizer(ArduinoOutdoorUpdate, ";\n");
+    	while (st.hasMoreTokens()) {
+     		var message=st.nextToken()
+    		println("\n"+message+"==>"+message)
+   	 		
+	   	    var int len=message.length
+	   	    if(message.charAt(len-1)==';') len=len-1
+			var int equalsign=message.indexOf('=')
+			if(equalsign>0) {
+				var String valueAsString = message.substring(equalsign+1, len)
+				println(message+"-->"+valueAsString)
+   	    		//valueAsString=valueAsString.replace('.',',')
+   	       	    
+				if (message.startsWith("/soil/humidity=")) {
+					val Number value=Integer::parseInt(valueAsString)
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_SoilHum, value)
+				} else
+				if (message.startsWith("/light/intensity=")) {
+					val Number value=Integer::parseInt(valueAsString)
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_Light, value)
+				} else
+				if (message.startsWith("/rain/mmh=")) {
+					val Number value=Integer::parseInt(valueAsString)
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_RainDrop, value)
+				} else
+				if (message.startsWith("/air/humidity=")) {
+					val Number value=Float::parseFloat(valueAsString)					
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_AirHum, value)
+				} else
+				if (message.startsWith("/air/temperature=")) {
+					val Number value=Float::parseFloat(valueAsString)					
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_AirTemp, value)
+				} else
+				if (message.startsWith("/air/dewpoint=")) {
+					val Number value=Float::parseFloat(valueAsString)					
+					println(message+"==-->"+value)
+					postUpdate(ArduinoOutdoor_DewPoint, value)
+				}
+			}
+		}
+		ArduinoOutdoorUpdate = ""
+end
+
+rule "Reset lcd screen"
+when
+	Time cron "2 * * * * ?"
+then	
+	switch(language){
+		case "fr" : {
+			sendCommand(ArduinoAccess, "/lcd=Entrez Code PIN;")	
+		}
+		default : {
+			sendCommand(ArduinoAccess, "/lcd=Enter PIN code;")	
+		}	
+	}						
+end
+
+
+
