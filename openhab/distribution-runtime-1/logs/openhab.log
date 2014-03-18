@@ -3620,3 +3620,29 @@ Caused by: java.io.FileNotFoundException: configurations/transform/en.map (No su
 19:08:24.291 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
 19:10:01.134 INFO  o.o.io.rest.RESTApplication[:157]- Stopped REST API
 19:10:05.151 INFO  o.o.u.w.i.s.WebAppServlet[:90]- Stopped Classic UI
+13:28:42.874 INFO  o.o.c.internal.CoreActivator[:61]- openHAB runtime has been started (v1.4.0).
+13:28:44.839 INFO  o.o.i.s.i.DiscoveryServiceImpl[:72]- mDNS service has been started
+13:28:45.655 INFO  o.o.io.rest.RESTApplication[:141]- Started REST API at /rest
+13:28:53.442 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.sitemap'
+13:28:53.608 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.script'
+13:28:53.700 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'db4o.persist'
+13:28:53.715 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'exec.persist'
+13:28:53.719 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'logging.persist'
+13:28:53.726 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'rrd4j.persist'
+13:28:53.747 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.items'
+13:28:55.182 INFO  o.o.u.w.i.s.WebAppServlet[:79]- Started Classic UI at /openhab.app
+13:29:03.842 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
+13:37:29.710 INFO  o.o.io.rest.RESTApplication[:157]- Stopped REST API
+13:37:33.731 INFO  o.o.u.w.i.s.WebAppServlet[:90]- Stopped Classic UI
+13:37:39.339 INFO  o.o.c.internal.CoreActivator[:61]- openHAB runtime has been started (v1.4.0).
+13:37:40.979 INFO  o.o.i.s.i.DiscoveryServiceImpl[:72]- mDNS service has been started
+13:37:41.695 INFO  o.o.io.rest.RESTApplication[:141]- Started REST API at /rest
+13:37:49.954 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.sitemap'
+13:37:50.203 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.script'
+13:37:50.295 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'db4o.persist'
+13:37:50.308 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'exec.persist'
+13:37:50.311 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'logging.persist'
+13:37:50.316 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'rrd4j.persist'
+13:37:50.334 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.items'
+13:37:51.196 INFO  o.o.u.w.i.s.WebAppServlet[:79]- Started Classic UI at /openhab.app
+13:38:00.422 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
