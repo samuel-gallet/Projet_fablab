@@ -3,8 +3,8 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import java.util.StringTokenizer
 
-var String ArduinoLuminosityUpdate = ""
-
+//var String ArduinoLuminosityUpdate = ""
+var String ArduinoPoidsUpdate = ""
 
 rule Startup
 when 
@@ -20,7 +20,7 @@ then
 	say("Good bye!")
 end
 
-rule "MAJ Luminosité hall Arduino"
+/*rule "MAJ Luminosité hall Arduino"
 when
 	Item Arduino received update
 	then
@@ -43,11 +43,37 @@ when
 		}
 		ArduinoLuminosityUpdate = ""
 		sendCommand(Arduino, "ok")
+end*/
+
+rule "MAJ Poids Paillasson ArduinoP"
+when
+	Item ArduinoP received update
+	then
+		ArduinoPoidsUpdate = ArduinoPoidsUpdate + ArduinoP.state.toString.trim
+		println("Arduino Poids Update : " + ArduinoPoidsUpdate)
+		val updates = ArduinoPoidsUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("Poids") && update.contains("=")) {
+				var IndexPoids = update.indexOf("=")
+				var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
+				//p = p 
+				say("La valeur p est égale à " + p)
+				if (p > 1000) {
+					sendCommand(Paillasson_Entrance, OFF)
+				} else {
+					sendCommand(Paillasson_Entrance, ON)
+				}
+				postUpdate(Poids_Entrance, p)
+			}
+		}
+		ArduinoPoidsUpdate = ""
+		sendCommand(ArduinoP, "ok")
 end
 
-rule "test"
+/*rule "test"
 when
 	Item Light_Presence received command
 	then
 		sendCommand(Arduino, "salut")
-end
+end*/

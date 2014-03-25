@@ -11,15 +11,25 @@ Group GF_Hall "hall" <groundfloor> (gGF)
 
 /* active groups */
 Group:Switch:OR(ON, OFF) Lights "Lampe [(%d)]" (All)
+Group:Switch:OR(ON, OFF) Paillasson "Poids [(%d)]" (All)
 
 /* Lights */
-Switch Light_GF_Hall "Lampe [(%d)]" (GF_Hall)
-Switch Light_Presence "door" <siren> (gOut)	
-
+Switch Light_GF_Hall "Lampe" (GF_Hall)
+//Switch Light_Presence "door" <siren> (gOut)	
 
 /* Luminosité */
 Number Luminosite_Hall "Luminosite [%d]" <slider> (GF_Hall)
 
+/* Paillasson */
+Switch Paillasson_Entrance "Paillasson" <present> (gOut)
+
+/* Poids */
+Number Poids_Entrance "Poids [%d]" <slider> (gOut)
+
 /* Arduino */
-String Arduino "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem1421"}
+//String Arduino "Arduino luminosité [%s]" (gDevice) {serial="/dev/ttyACM1"}
+
+/* Arduino Poids */
+String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/ttyACM0"}
+
 
