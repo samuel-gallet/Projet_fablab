@@ -3646,3 +3646,47 @@ Caused by: java.io.FileNotFoundException: configurations/transform/en.map (No su
 13:37:50.334 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.items'
 13:37:51.196 INFO  o.o.u.w.i.s.WebAppServlet[:79]- Started Classic UI at /openhab.app
 13:38:00.422 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
+10:53:23.163 INFO  o.o.c.internal.CoreActivator[:61]- openHAB runtime has been started (v1.4.0).
+10:53:27.010 INFO  o.o.i.s.i.DiscoveryServiceImpl[:72]- mDNS service has been started
+10:53:28.298 INFO  o.o.io.rest.RESTApplication[:141]- Started REST API at /rest
+10:53:34.589 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.sitemap'
+10:53:34.867 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.script'
+10:53:35.011 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'db4o.persist'
+10:53:35.037 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'exec.persist'
+10:53:35.051 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'logging.persist'
+10:53:35.073 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'rrd4j.persist'
+10:53:35.101 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.items'
+10:53:37.800 INFO  o.o.u.w.i.s.WebAppServlet[:79]- Started Classic UI at /openhab.app
+10:53:40.739 ERROR o.o.m.i.i.GenericItemProvider[:343]- Binding configuration of type 'serial' of item ‘Arduino‘ could not be parsed correctly.
+org.openhab.model.item.binding.BindingConfigParseException: Could not open serial port /dev/tty.usbmodem1421: Serial port '/dev/tty.usbmodem1421' could not be found. Available ports are:
+/dev/tty.Bluetooth-Incoming-Port
+/dev/cu.Bluetooth-Incoming-Port
+/dev/tty.Bluetooth-Modem
+/dev/cu.Bluetooth-Modem
+/dev/tty.usbmodem1411
+/dev/cu.usbmodem1411
+
+	at org.openhab.binding.serial.internal.SerialBinding.processBindingConfiguration(SerialBinding.java:138)
+	at org.openhab.model.item.internal.GenericItemProvider.internalDispatchBindings(GenericItemProvider.java:341)
+	at org.openhab.model.item.internal.GenericItemProvider.dispatchBindingsPerType(GenericItemProvider.java:302)
+	at org.openhab.model.item.internal.GenericItemProvider.addBindingConfigReader(GenericItemProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+10:53:45.216 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
+11:00:55.004 INFO  o.o.io.rest.RESTApplication[:157]- Stopped REST API
+11:00:59.101 INFO  o.o.u.w.i.s.WebAppServlet[:90]- Stopped Classic UI
+11:01:41.924 INFO  o.o.c.internal.CoreActivator[:61]- openHAB runtime has been started (v1.4.0).
+11:01:44.331 INFO  o.o.i.s.i.DiscoveryServiceImpl[:72]- mDNS service has been started
+11:01:45.284 INFO  o.o.io.rest.RESTApplication[:141]- Started REST API at /rest
+11:01:52.857 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.sitemap'
+11:01:53.027 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.script'
+11:01:53.118 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'db4o.persist'
+11:01:53.145 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'exec.persist'
+11:01:53.151 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'logging.persist'
+11:01:53.159 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'rrd4j.persist'
+11:01:53.188 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.items'
+11:01:54.642 INFO  o.o.u.w.i.s.WebAppServlet[:79]- Started Classic UI at /openhab.app
+11:02:03.304 INFO  o.o.m.c.i.ModelRepositoryImpl[:79]- Loading model 'demo.rules'
+11:20:16.698 INFO  o.o.m.c.i.ModelRepositoryImpl[:97]- Refreshing model 'demo.rules'
+11:27:57.903 INFO  o.o.io.rest.RESTApplication[:157]- Stopped REST API
+11:28:07.048 INFO  o.o.u.w.i.s.WebAppServlet[:90]- Stopped Classic UI
