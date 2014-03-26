@@ -1,3 +1,6 @@
-*.log
+*.cheksum
 *.zip
+*.log
 *.instance
+openhab/distribution-runtime-1/logs/*
+openhab/distribution-runtime-1/server/configuration/org.eclipse.osgi/*

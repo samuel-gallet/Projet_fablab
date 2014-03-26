@@ -3,7 +3,7 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import java.util.StringTokenizer
 
-//var String ArduinoLuminosityUpdate = ""
+var String ArduinoLuminosityUpdate = ""
 var String ArduinoPoidsUpdate = ""
 
 rule Startup
@@ -20,12 +20,13 @@ then
 	say("Good bye!")
 end
 
-/*rule "MAJ Luminosité hall Arduino"
+rule "MAJ Luminosité hall Arduino"
 when
 	Item Arduino received update
 	then
 		ArduinoLuminosityUpdate = ArduinoLuminosityUpdate + Arduino.state.toString.trim
-		println("Arduino Luminosity Update : " + ArduinoLuminosityUpdate)
+		if (!ArduinoLuminosityUpdate.contains("Luminosity"))
+			println("Arduino Luminosity Update : " + ArduinoLuminosityUpdate)
 		val updates = ArduinoLuminosityUpdate.split("\n")
 		for(update : updates) {
 			println("update -> " + update)
@@ -33,17 +34,11 @@ when
 				var IndexLum = update.indexOf("=")
 				var Number lum = Integer::parseInt(update.substring(IndexLum + 1, update.indexOf(";")))
 				lum = lum * 100 / 155
-				if (lum == 0) {
-					sendCommand(Light_GF_Hall, OFF)
-				} else {
-					sendCommand(Light_GF_Hall, ON)
-				}
 				postUpdate(Luminosite_Hall, lum)
 			}
 		}
 		ArduinoLuminosityUpdate = ""
-		sendCommand(Arduino, "ok")
-end*/
+end
 
 rule "MAJ Poids Paillasson ArduinoP"
 when
@@ -71,9 +66,14 @@ when
 		sendCommand(ArduinoP, "ok")
 end
 
-/*rule "test"
+rule "test"
 when
-	Item Light_Presence received command
+	Item Light_GF_Hall received command
 	then
-		sendCommand(Arduino, "salut")
-end*/
+		if(Light_GF_Hall.state == ON)
+			sendCommand(Arduino, "switch on")
+		else {
+			sendCommand(Arduino, "switch off")
+			postUpdate(Luminosite_Hall, 0)
+		}
+end

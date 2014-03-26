@@ -1,48 +1,49 @@
 float val;
 int led = 9;
 int luminosite= 0; // pin analog A0
-boolean donneesTraitees;
-char buf[20];
-int carlu;
+boolean active;
+
 
 void setup ()
 {
   Serial.begin(9600);
   pinMode(luminosite, INPUT);
   pinMode(led, OUTPUT);
-  donneesTraitees = true;
-  carlu = 0;
+  active = false;
 }
 
 void loop()
 {
-  /*if (Serial.available() > 0)
+  char command[500];
+  
+  if (Serial.readBytes(command, 500) == 0)
   {
-    int i = 0;
-    carlu = Serial.available();
-    while (carlu > 0)
+    command == NULL;
+  } else 
+  {
+    char *p = command;
+    char *str;
+  
+    while ((str = strtok_r(p, ";", &p)) != NULL)
     {
-      buf[i] = Serial.read();
-      delay(2);
-      carlu = Serial.available();
-      i++;
+      if (strstr(str, "switch on") > 0)
+      {
+        active = true;
+      } else if (strstr(str, "switch off") > 0)
+      {
+        active = false;
+        analogWrite(led, 0);
+      }
     }
-    if (strcmp(buf, "ok"))
-      donneesTraitees = true;
-    for(int i = 0; i < 20; i++)
-    {
-      buf[i] = '\0';
-    }
-  }*/
-  delay(500);
-  //if (donneesTraitees) 
-  //{
+  }
+  
+  if (active)
+  {
+    delay(200);
     sendMessage("Luminosity=", manageLed(val/4));
-    donneesTraitees = false;
-  //}
-  val = analogRead(luminosite);
-  analogWrite(led, manageLed(val/4));
-  delay(50);
+    val = analogRead(luminosite);
+    analogWrite(led, manageLed(val/4));
+  }
 }
 
 int manageLed(float val)
