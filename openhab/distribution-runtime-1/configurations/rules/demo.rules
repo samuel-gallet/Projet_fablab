@@ -52,28 +52,27 @@ when
 			if (update.contains("Poids") && update.contains("=")) {
 				var IndexPoids = update.indexOf("=")
 				var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
-				//p = p 
-				say("La valeur p est égale à " + p)
-				if (p > 1000) {
+				//say("La valeur p est égale à " + p)
+				if (p > 600) {
 					sendCommand(Paillasson_Entrance, OFF)
 				} else {
 					sendCommand(Paillasson_Entrance, ON)
+					postUpdate(Light_GF_Hall,ON)
 				}
 				postUpdate(Poids_Entrance, p)
 			}
 		}
 		ArduinoPoidsUpdate = ""
-		sendCommand(ArduinoP, "ok")
 end
 
 rule "test"
 when
-	Item Light_GF_Hall received command
+	Item Light_GF_Hall received update
 	then
 		if(Light_GF_Hall.state == ON)
 			sendCommand(Arduino, "switch on")
 		else {
-			sendCommand(Arduino, "switch off")
 			postUpdate(Luminosite_Hall, 0)
+			sendCommand(Arduino, "switch off")
 		}
 end

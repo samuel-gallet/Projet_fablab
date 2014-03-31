@@ -14,24 +14,22 @@ void loop()
 { 
   val = analogRead(resistance);
   
-  if (val > 1000) 
+  if (val > 600) 
     analogWrite(led, 0) ;
-  else 
+  else { 
+    sendMessage("Poids=",val);
     analogWrite(led, val) ;
+  }
 
-  Serial.println(val);
-  delay(8);
+  
+  delay(1000);
 }
 
 
-
-
-// manageLed(float val)
-//{
-//  if (val > 1000) 
-//    digitalWrite(led, LOW) ;
-   // return 0;
-//  else 
-//    digitalWrite(led, HIGH) ;
-   // return val;
-//}
+void sendMessage(char *key, int value)
+{
+  Serial.print(key);
+  Serial.print(value);
+  Serial.println(";");
+  Serial.flush();
+}
