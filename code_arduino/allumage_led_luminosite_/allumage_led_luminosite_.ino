@@ -19,6 +19,7 @@ void setup ()
   curr_time = 0;
   prev_time = 0;
   mySwitch.enableTransmit(TXpin);
+
 }
 
 void loop()
@@ -33,7 +34,7 @@ void loop()
     char *p = command;
     char *str;
   /*if (Serial.available())
-  {  
+    
     while (Serial.available())
     {
       command[i] = Serial.read();
@@ -68,8 +69,11 @@ void loop()
     }
     val = analogRead(luminosite);
     analogWrite(led, manageLed(val/4));
-  }
-}
+    
+    }
+  }   
+    
+
 
 int manageLed(float val)
 {
