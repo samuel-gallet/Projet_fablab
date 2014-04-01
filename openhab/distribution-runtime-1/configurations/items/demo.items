@@ -27,9 +27,9 @@ Switch Paillasson_Entrance "Paillasson" <present> (gOut)
 Number Poids_Entrance "Poids [%d]" <slider> (gOut)
 
 /* Arduino */
-String Arduino "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem1411"}
+String Arduino "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem1421"}
 
 /* Arduino Poids */
-String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem1421"}
+String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem1411"}
 
 
