@@ -70,9 +70,9 @@ when
 	Item Light_GF_Hall received update
 	then
 		if(Light_GF_Hall.state == ON)
-			sendCommand(Arduino, "switch on")
+			sendCommand(Arduino, "switch on;")
 		else {
 			postUpdate(Luminosite_Hall, 0)
-			sendCommand(Arduino, "switch off")
+			sendCommand(Arduino, "switch off;")
 		}
 end

@@ -17,7 +17,7 @@ void setup ()
 
 void loop()
 {
-  char command[9];
+  char command[10];
   int i = 0;
   if (Serial.readBytes(command, 500) == 0)
   {
