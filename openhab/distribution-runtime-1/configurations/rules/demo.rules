@@ -22,9 +22,9 @@ end
 
 rule "MAJ Luminosité hall Arduino"
 when
-	Item Arduino received update
+	Item ArduinoLum received update
 	then
-		ArduinoLuminosityUpdate = ArduinoLuminosityUpdate + Arduino.state.toString.trim
+		ArduinoLuminosityUpdate = ArduinoLuminosityUpdate + ArduinoLum.state.toString.trim
 		if (!ArduinoLuminosityUpdate.contains("Luminosity"))
 			println("Arduino Luminosity Update : " + ArduinoLuminosityUpdate)
 		val updates = ArduinoLuminosityUpdate.split("\n")
@@ -70,9 +70,9 @@ when
 	Item Light_GF_Hall received update
 	then
 		if(Light_GF_Hall.state == ON)
-			sendCommand(Arduino, "switch on;")
+			sendCommand(ArduinoLum, "switch on;")
 		else {
 			postUpdate(Luminosite_Hall, 0)
-			sendCommand(Arduino, "switch off;")
+			sendCommand(ArduinoLum, "switch off;")
 		}
 end
