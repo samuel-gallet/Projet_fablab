@@ -5,6 +5,7 @@ import java.util.StringTokenizer
 
 var String ArduinoLuminosityUpdate = ""
 var String ArduinoPoidsUpdate = ""
+var String ArduinoCaptUpdate = ""
 
 rule Startup
 when 
@@ -56,8 +57,9 @@ when
 				if (p > 600) {
 					sendCommand(Paillasson_Entrance, OFF)
 				} else {
+					sendCommand(ArduinoCapt, "attente capteur;")
 					sendCommand(Paillasson_Entrance, ON)
-					postUpdate(Light_GF_Hall,ON)
+					//postUpdate(Light_GF_Hall,ON)
 				}
 				postUpdate(Poids_Entrance, p)
 			}
@@ -76,3 +78,20 @@ when
 			sendCommand(ArduinoLum, "switch off;")
 		}
 end
+
+rule "MAJ Capteur"
+when 
+	Item ArduinoCapt received update
+	then
+		ArduinoCaptUpdate = ArduinoCaptUpdate + ArduinoCapt.state.toString.trim
+		println("Arduino Capteur Update : " + ArduinoCaptUpdate)
+		val updates = ArduinoCaptUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("personne detectee")) {
+				postUpdate(Light_GF_Hall, ON)
+			}
+		}
+	
+end
+	

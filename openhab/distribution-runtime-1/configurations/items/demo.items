@@ -32,4 +32,6 @@ String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmode
 /* Arduino Poids */
 String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem1411"}
 
+/* Arduino Capteur */
+String ArduinoCapt "Arduino Capteur [%s]" (gDevice) {Serial=""}
 
