@@ -20,7 +20,9 @@ void loop()
     analogWrite(led, 0);
   } else 
   {
+    delay(500);
     sendMessage("Poids=", val);
+    delay(5000);
     analogWrite(led, val);
   }
   delay(100);

@@ -58,7 +58,7 @@ when
 					sendCommand(Paillasson_Entrance, OFF)
 				} else {
 					sendCommand(ArduinoCapt, "attente capteur;")
-					sendCommand(Paillasson_Entrance, ON)
+					//sendCommand(Paillasson_Entrance, ON)
 					//postUpdate(Light_GF_Hall,ON)
 				}
 				postUpdate(Poids_Entrance, p)
@@ -88,10 +88,17 @@ when
 		val updates = ArduinoCaptUpdate.split("\n")
 		for(update : updates) {
 			println("update -> " + update)
-			if (update.contains("personne detectee")) {
-				postUpdate(Light_GF_Hall, ON)
+			if (update.contains("Personne") && update.contains("=")) {
+				var IndexNbPers = update.indexOf("=")
+				var Number nb = Integer::parseInt(update.substring(IndexNbPers + 1, update.indexOf(";")))
+				if (nb > 0) {
+					postUpdate(Personnes, nb)
+					postUpdate(Light_GF_Hall, ON)
+					sendCommand(Paillasson_Entrance, ON)
+				}
 			}
 		}
+		ArduinoCaptUpdate = ""
 	
 end
 	

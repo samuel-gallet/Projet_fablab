@@ -19,6 +19,7 @@ void setup ()
   curr_time = 0;
   prev_time = 0;
   mySwitch.enableTransmit(TXpin);
+  mySwitch.switchOff(2, 2);
 
 }
 
@@ -33,17 +34,6 @@ void loop()
   {
     char *p = command;
     char *str;
-  /*if (Serial.available())
-    
-    while (Serial.available())
-    {
-      command[i] = Serial.read();
-      i++;
-      delay(5);
-    }
-    char *p = command;
-    char *str;*/
-    Serial.println(p);
     while ((str = strtok_r(p, ";", &p)) != NULL)
     {
       if (strstr(str, "switch on") > 0)
@@ -63,7 +53,7 @@ void loop()
   {
     prev_time = curr_time;
     curr_time = millis();
-    if (prev_time + 300 < curr_time)
+    if (prev_time + 5000 < curr_time)
     {
       sendMessage("Luminosity=", manageLed(val/4));
     }

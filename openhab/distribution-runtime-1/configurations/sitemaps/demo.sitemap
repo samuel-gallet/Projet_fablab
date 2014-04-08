@@ -4,4 +4,8 @@ sitemap demo label="Main Menu"
 		Group item=gOut label="Entrance" icon="frontdoor-open"
 		Group item=gGF label="Ground Floor" icon="groundfloor"
 	}
+	
+	Frame label="Info Interne"{
+		Group item=gInfo label="Information maison" icon="house"
+	}
 }
