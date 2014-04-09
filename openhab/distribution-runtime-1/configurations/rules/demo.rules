@@ -6,12 +6,13 @@ import java.util.StringTokenizer
 var String ArduinoLuminosityUpdate = ""
 var String ArduinoPoidsUpdate = ""
 var String ArduinoCaptUpdate = ""
+var Number nb = 0
 
 rule Startup
 when 
 	System started
 then
-	say("Welcome at openHab!")
+	say("Hello Hélène Robin Audrey Samuel et Caroline !")
 end
 
 rule Goodbye
@@ -53,8 +54,7 @@ when
 			if (update.contains("Poids") && update.contains("=")) {
 				var IndexPoids = update.indexOf("=")
 				var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
-				//say("La valeur p est égale à " + p)
-				if (p > 600) {
+				if (p > 550) {
 					sendCommand(Paillasson_Entrance, OFF)
 				} else {
 					sendCommand(ArduinoCapt, "attente capteur;")
@@ -66,6 +66,27 @@ when
 		}
 		ArduinoPoidsUpdate = ""
 end
+
+
+rule "MAJ Poids Paillasson Sortie ArduinoCapt"
+when
+	Item ArduinoCapt received update
+	then
+		ArduinoCaptUpdate = ArduinoCaptUpdate + ArduinoCapt.state.toString.trim
+		println("Arduino Capteur Update : " + ArduinoCaptUpdate)
+		val updates = ArduinoCaptUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("attente sortie")) {
+				//var IndexPoids = update.indexOf("=")
+				//var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
+				sendCommand(ArduinoP, "attente paillasson;")
+			}
+		}
+		ArduinoPoidsUpdate = ""
+end
+
+
 
 rule "test"
 when
@@ -88,13 +109,38 @@ when
 		val updates = ArduinoCaptUpdate.split("\n")
 		for(update : updates) {
 			println("update -> " + update)
-			if (update.contains("Personne") && update.contains("=")) {
-				var IndexNbPers = update.indexOf("=")
-				var Number nb = Integer::parseInt(update.substring(IndexNbPers + 1, update.indexOf(";")))
-				if (nb > 0) {
+			if (update.contains("Personne +1")) {
+				nb = nb + 1
+				postUpdate(Personnes, nb)
+				postUpdate(Light_GF_Hall, ON)
+				sendCommand(Paillasson_Entrance, ON)
+			}
+		}
+		ArduinoCaptUpdate = ""
+	
+end
+
+
+rule "MAJ Paillasson sortie"
+when 
+	Item ArduinoP received update
+	then
+		ArduinoPoidsUpdate = ArduinoPoidsUpdate + ArduinoP.state.toString.trim
+		println("Arduino Paillasson sortie Update : " + ArduinoPoidsUpdate)
+		val updates = ArduinoPoidsUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("sortie de la maison")) {
+				if (nb<=0) {
+					say ("Help !! There is a problem in your house!")
+				} 
+				else{
+					nb = nb-1
 					postUpdate(Personnes, nb)
-					postUpdate(Light_GF_Hall, ON)
-					sendCommand(Paillasson_Entrance, ON)
+					if (nb == 0) {
+						postUpdate(Light_GF_Hall, OFF)
+						sendCommand(Paillasson_Entrance, OFF)
+					}
 				}
 			}
 		}

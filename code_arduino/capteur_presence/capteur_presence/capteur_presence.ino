@@ -2,7 +2,7 @@ int val;
 int capteur = 3;
 boolean enAttente;
 unsigned long curr_time, prev_time;
-int personne;
+//int personne;
 
 
 void setup ()
@@ -13,12 +13,13 @@ void setup ()
   curr_time = 0;
   prev_time = 0;
   val = 0;
-  personne = 0;
+ // personne = 0;
 
 }
 
 void loop()
 {
+  // Capteur entrée
   char command[500];
   int i = 0;
   if (Serial.readBytes(command, 500) == 0)
@@ -45,20 +46,28 @@ void loop()
   {
     prev_time = curr_time;
     curr_time = millis();
-    while (prev_time + 10000 > curr_time)
+    while (prev_time + 5000 > curr_time)
     {
       curr_time = millis();
       val = digitalRead(capteur);
       if (val == 1) {
-        personne ++;
-        for(int i = 0; i < 5; i++)
-          sendMessage("Personne=", personne);
+        //personne ++;
+        Serial.println("Personne +1");
         break;
       }
     }
     enAttente = false;
-
   } 
+  
+  // Capteur sortie
+  val = digitalRead(capteur);
+  if(val == 1) 
+  {
+    delay(500);
+    Serial.println("attente sortie");
+    delay(5000);
+  }
+  
    
 }    
 

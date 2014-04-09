@@ -31,13 +31,13 @@ Number Poids_Entrance "Poids [%d]" <slider> (gOut)
 Number Personnes "Nombre de Personnes [%d]" <parents> (gInfo)
 
 /* Arduino Capteur */
-String ArduinoCapt "Arduino Capteur [%s]" (gDevice) {serial="/dev/tty.usbmodem1421"}
+String ArduinoCapt "Arduino Capteur [%s]" (gDevice) {serial="/dev/tty.usbmodem1a1241"}
 
 /* Arduino */
-String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem14121"}
+String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem1a1211"}
 
 /* Arduino Poids */
-String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem14141"}
+String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem1a1231"}
 
 
 
