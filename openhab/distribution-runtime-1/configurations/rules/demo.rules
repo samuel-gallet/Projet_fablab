@@ -231,4 +231,29 @@ when
 		ArduinoCaptUpdate = ""
 	
 end*/
+
+rule "Affichage Meteo"
+	when 
+		Item ArduinoCapt received update
+	then
+		switch (Weather_Temperature ) {
+			case Weather_Temperature.Contains("Rain") : 
+			case Weather_Temperature.Contains("Thunderstorms") :
+			case Weather_Temperature.Contains("Drizzle") :
+			case Weather_Temperature.Contains("Showers"):
+				sendCommand(ArduinoPorteManteau, "blue")
+				
+			case Weather_Temperature.Contains("Snow") :
+				sendCommand(ArduinoPorteManteau, "white")
+				
+			case Weather_Temperature.Contains("Sunny") :
+			case Weather_Temperature.Contains("Hot") :
+				sendCommand(ArduinoPorteManteau, "yellow")
+				
+			case default :
+				sendCommand(ArduinoPorteManteau, "green")
+			}
+end
+}
+}
 	

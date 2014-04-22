@@ -10,6 +10,8 @@ Group gDevice (All)
 
 Group GF_Hall "hall" <groundfloor> (gGF)
 
+Group Weather_Chart	 "Météo" <weather>	(Weather)
+
 /* active groups */
 Group:Switch:OR(ON, OFF) Lights "Lampe [(%d)]" (All)
 Group:Switch:OR(ON, OFF) Paillasson "Poids [(%d)]" (All)
@@ -40,5 +42,10 @@ String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/ttyACM2"}
 /* Arduino Poids */
 String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/ttyACM1"}
 
+/* Arduino PorteManteau */
+String ArduinoPorteManteau "Arduino weather [%s]" (gDevice) {serial="/dev/ttyACM1"}
 
+/* Porte-manteau */
+String Weather_Temperature 		"Température Extérieure [%s]"	<temperature> (Weather_Chart) 
+{ http="<[http://weather.yahooapis.com/forecastrss?w=12724717&u=c:60000:XSLT(yahoo_weather_temperature.xsl)]" }
 
