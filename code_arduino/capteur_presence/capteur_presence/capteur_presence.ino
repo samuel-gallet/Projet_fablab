@@ -1,11 +1,7 @@
-#include <VirtualWire.h>
-
 int val;
 int capteur = 3;
 boolean enAttente;
 unsigned long curr_time, prev_time;
-//const int transmit_pin = 12;
-const int transmit_en_pin = 12;
 
 void setup ()
 {
@@ -15,11 +11,6 @@ void setup ()
   curr_time = 0;
   prev_time = 0;
   val = 0;
- // Initialise the IO and ISR
-    //vw_set_tx_pin(transmit_pin);
-    vw_set_ptt_pin(transmit_en_pin);
-    // Débit
-    vw_setup(2000) ;
 
 }
 
@@ -45,7 +36,7 @@ void loop()
   }
  // delay(500);
   curr_time = millis(); 
-  if (true)//enAttente)
+  if (enAttente)
   {
     prev_time = curr_time;
     curr_time = millis();
@@ -54,10 +45,7 @@ void loop()
       curr_time = millis();
       val = digitalRead(capteur);
       if (val == 1) {
-        char msg[11] = {'p','e','r','s','o','n','n','e',' ','+','1'};
-        vw_send((uint8_t *)msg, 11);  
-        vw_wait_tx(); // Wait until the whole message is gone
-        break;
+     	Serial.println("Personne +1");
       }
     }
     enAttente = false;
