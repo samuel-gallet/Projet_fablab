@@ -46,7 +46,7 @@ end
 
 /*rule "Entree ou sortie de la maison"
 when
-	Item ArduinoP received update or
+	//Item ArduinoP received update or
 	Item ArduinoCapt received update
 	then
 		if (Personne == false) {

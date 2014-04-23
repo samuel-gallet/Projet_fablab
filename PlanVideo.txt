@@ -1,0 +1,6 @@
+1. Quel est le besoin ? 
+2. Qu'est-ce qui existe deja ? Comment c'est fait ?
+3. Comment nous on fait et pourquoi c'est mieux.
+(pas trop dans le detail technique)
+
+(parler de l'agile)
