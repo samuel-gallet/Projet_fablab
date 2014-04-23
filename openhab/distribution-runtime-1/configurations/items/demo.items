@@ -34,16 +34,16 @@ Number Personnes "Nombre de Personnes [%d]" <parents> (gInfo)
 
 /* Arduino Capteur */
 
-String ArduinoCapt "Arduino Capteur [%s]" (gDevice) {serial="/dev/ttyACM0"}
+String ArduinoCapt "Arduino Capteur [%s]" (gDevice) {serial="/dev/tty.usbmodem14131"}
 
 /* Arduino */
-String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/ttyACM2"}
+String ArduinoLum "Arduino luminosité [%s]" (gDevice) {serial="/dev/tty.usbmodem14121"}
 
 /* Arduino Poids */
-String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/ttyACM1"}
+String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem14111"}
 
 /* Arduino PorteManteau */
-String ArduinoPorteManteau "Arduino weather [%s]" (gDevice) {serial="/dev/ttyACM1"}
+String ArduinoPorteManteau "Arduino weather [%s]" (gDevice) //{serial="/dev/ttyACM1"}
 
 /* Porte-manteau */
 String Weather_Temperature 		"Température Extérieure [%s]"	<temperature> (Weather_Chart) 

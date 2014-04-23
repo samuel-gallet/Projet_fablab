@@ -44,7 +44,7 @@ when
 		ArduinoLuminosityUpdate = ""
 end
 
-rule "Entree ou sortie de la maison"
+/*rule "Entree ou sortie de la maison"
 when
 	Item ArduinoP received update or
 	Item ArduinoCapt received update
@@ -52,11 +52,6 @@ when
 		if (Personne == false) {
 		//on attend un peu et si la personne rentre, on affiche son poids
 			Personne = true
-			trigger = newTrigger()
-			    	.withIdentity("trigger3", "group1")
-			    	.withSchedule(cronSchedule("5 ? ? ? ? ?"))
-			    	.forJob(myJobKey)
-			    	.build()
 			if (ArduinoP received update) {
 				ArduinoPoidsUpdate = ArduinoPoidsUpdate + ArduinoP.state.toString.trim
 				println("Arduino Poids Update : " + ArduinoPoidsUpdate)
@@ -72,6 +67,7 @@ when
 						}
 						postUpdate(Poids_Entrance, p)				
 					}
+				}
 			}	
 		} else {
 			//Une personne est deja passée soit devant le capteur soit sur le paillasson
@@ -120,10 +116,10 @@ when
 			}
 		}
 		ArduinoPoidsUpdate = ""
-end
+end*/
 
 
-/*rule "MAJ Poids Paillasson ArduinoP"
+rule "MAJ Poids Paillasson ArduinoP"
 when
 	Item ArduinoP received update
 	then
@@ -135,7 +131,7 @@ when
 			if (update.contains("Poids") && update.contains("=")) {
 				var IndexPoids = update.indexOf("=")
 				var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
-				if (p > 550) {
+				if (p > 400) {
 					sendCommand(Paillasson_Entrance, OFF)
 				} else {
 					sendCommand(ArduinoCapt, "attente capteur;")
@@ -165,7 +161,7 @@ when
 			}
 		}
 		ArduinoPoidsUpdate = ""
-end*/
+end
 
 
 
@@ -181,7 +177,7 @@ when
 		}
 end
 
-/*rule "MAJ Capteur"
+rule "MAJ Capteur"
 when 
 	Item ArduinoCapt received update
 	then
@@ -227,9 +223,9 @@ when
 		}
 		ArduinoCaptUpdate = ""
 	
-end*/
+end
 
-rule "Affichage Meteo"
+/*rule "Affichage Meteo"
 	when 
 		Item ArduinoCapt received update
 	then
@@ -251,6 +247,5 @@ rule "Affichage Meteo"
 				sendCommand(ArduinoPorteManteau, "green")
 			}
 end
-}
-}
+*/
 	
