@@ -20,7 +20,7 @@ void loop()
   // Détection poids entrée
   val = analogRead(resistance);
   
-  if(val > 550) 
+  if(val > 400) 
   {
     analogWrite(led, 0);
   } else 
@@ -64,7 +64,7 @@ void loop()
     {
       curr_time = millis();
       val = analogRead(resistance);
-      if (val < 550) {
+      if (val < 400) {
         // personne --;
         Serial.println("sortie de la maison");
         break;
