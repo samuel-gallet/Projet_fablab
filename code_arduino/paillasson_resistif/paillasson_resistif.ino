@@ -19,6 +19,7 @@ void loop()
 { 
   // Détection poids entrée
   val = analogRead(resistance);
+  Serial.println(val);
   
   if(val > 400) 
   {
