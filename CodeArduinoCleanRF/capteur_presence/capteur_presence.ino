@@ -29,10 +29,10 @@ void loop()
 {
   val = digitalRead(capteur);
   if (val == 1) {
-    char msg[7] = {'c','a','p','t','e','u','r'};
-    vw_send((uint8_t *)msg, 7);  
+    char msg[8] = {'c','a','p','t','e','u','r',';'};
+    vw_send((uint8_t *)msg, 8);  
     vw_wait_tx(); // Wait until the whole message is gone
-    break;
+    delay(1000);
   }  
 }    
 
