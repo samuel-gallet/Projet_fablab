@@ -2,7 +2,7 @@
 
 byte val;
 int resistance= A0; // pin analog A0
-const int transmit_en_pin = 12;
+const int transmit_en_pin = 10;
 
 void setup ()
 {
