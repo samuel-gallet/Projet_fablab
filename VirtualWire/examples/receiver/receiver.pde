@@ -4,16 +4,12 @@
 // Implements a simplex (one-way) receiver with an Rx-B1 module
 //
 // See VirtualWire.h for detailed API docs
-// Author: Mike McCauley (mikem@open.com.au)
+// Author: Mike McCauley (mikem@airspayce.com)
 // Copyright (C) 2008 Mike McCauley
 // $Id: receiver.pde,v 1.3 2009/03/30 00:07:24 mikem Exp $
 
 #include <VirtualWire.h>
-#undef int
-#undef abs
-#undef double
-#undef float
-#undef round
+
 void setup()
 {
     Serial.begin(9600);	// Debugging only

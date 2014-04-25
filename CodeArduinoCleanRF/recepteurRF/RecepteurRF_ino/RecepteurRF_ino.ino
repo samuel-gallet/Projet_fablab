@@ -1,5 +1,8 @@
 #include <VirtualWire.h>
+#include <VirtualWire_Config.h>
+
 #include <HRCSwitch.h>
+
 
 HRCSwitch mySwitch = HRCSwitch();
 
