@@ -45,6 +45,9 @@ String ArduinoP "Arduino poids [%s]" (gDevice) {serial="/dev/tty.usbmodem14111"}
 /* Arduino PorteManteau */
 String ArduinoPorteManteau "Arduino weather [%s]" (gDevice) //{serial="/dev/ttyACM1"}
 
+/* Arduino Intelligent */
+String ArduinoIntelligent "Arduino intelligent [%s]" (gDevice) //{serial="/dev/ttyACM1"}
+
 /* Porte-manteau */
 String Weather_Temperature 		"Température Extérieure [%s]"	<temperature> (Weather_Chart) 
 { http="<[http://weather.yahooapis.com/forecastrss?w=12724717&u=c:60000:XSLT(yahoo_weather_temperature.xsl)]" }

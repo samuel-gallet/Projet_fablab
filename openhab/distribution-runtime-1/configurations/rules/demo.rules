@@ -7,6 +7,7 @@ import java.util.StringTokenizer
 var String ArduinoLuminosityUpdate = ""
 var String ArduinoPoidsUpdate = ""
 var String ArduinoCaptUpdate = ""
+var String ArduinoIntelligentUpdate = ""
 var Number nb = 0
 var Boolean Personne = false
 
@@ -23,6 +24,103 @@ when
 then
 	say("Good bye!")
 end
+
+
+/*rule "Entree maison et MAJ poids et allumer si first"
+when
+	Item ArduinoIntelligent received update
+	then
+		ArduinoIntelligentUpdate = ArduinoIntelligentUpdate + ArduinoIntelligent.state.toString.trim
+		if (!ArduinoIntelligentUpdate.contains("entree"))
+			println("Arduino Intelligent Update : " + ArduinoIntelligentUpdate)
+		val updates = ArduinoIntelligentUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("p") && update.contains("=")) {
+				var p = update.indexOf("=")
+				var Number Poids = Integer::parseInt(update.substring(p + 1, update.indexOf(";")))
+				postUpdate(Poids_Entrance, Poids)
+			}
+			if (update.contains("nb") && update.contains("=")) {
+				var nbpers = update.indexOf("=")
+				var Number nbpersonne = Integer::parseInt(update.substring(nbpers + 1, update.indexOf(";")))
+				postUpdate(Personnes, nbpersonne)
+				if (nbpersonne == 1 || Light_GF_Hall.state == OFF) {
+					sendCommand(ArduinoIntelligent, "switch on;")
+				}
+			}
+		}
+		ArduinoIntelligentUpdate = ""
+end
+
+rule "Sortie maison et MAJ poids et eteindre si dernier"
+when
+	Item ArduinoIntelligent received update
+	then
+		ArduinoIntelligentUpdate = ArduinoIntelligentUpdate + ArduinoIntelligent.state.toString.trim
+		if (!ArduinoIntelligentUpdate.contains("sortie"))
+			println("Arduino Intelligent Update : " + ArduinoIntelligentUpdate)
+		val updates = ArduinoIntelligentUpdate.split("\n")
+		for(update : updates) {
+			println("update -> " + update)
+			if (update.contains("p") && update.contains("=")) {
+				var p = update.indexOf("=")
+				var Number Poids = Integer::parseInt(update.substring(p + 1, update.indexOf(";")))
+				postUpdate(Poids_Entrance, Poids)
+			}
+			if (update.contains("nb") && update.contains("=")) {
+				var nbpers = update.indexOf("=")
+				var Number nbpersonne = Integer::parseInt(update.substring(nbpers + 1, update.indexOf(";")))
+				postUpdate(Personnes, nbpersonne)
+				if (nbpersonne == 0 && Light_GF_Hall.state == ON) {
+					postUpdate(Luminosite_Hall, 0)
+					sendCommand(ArduinoIntelligent, "switch off;")
+				}
+			}
+			if (update.contains("intrusion")) {
+				say ("Help !! There is a problem in your house!")
+			}
+		}
+		ArduinoIntelligentUpdate = ""
+end
+
+rule "Affichage Meteo"
+	when 
+		Item ArduinoIntelligent received update
+	then
+		ArduinoIntelligentUpdate = ArduinoIntelligentUpdate + ArduinoIntelligent.state.toString.trim
+		if (!ArduinoIntelligentUpdate.contains("meteo")) {
+			println("Arduino Intelligent Update : " + ArduinoIntelligentUpdate)
+			switch (Weather_Temperature ) {
+				case Weather_Temperature.Contains("Rain") : 
+				case Weather_Temperature.Contains("Thunderstorms") :
+				case Weather_Temperature.Contains("Drizzle") :
+				case Weather_Temperature.Contains("Showers"):
+				case Weather_Temperature.Contains("Snow") :
+					sendCommand(ArduinoIntelligent, "blue")
+				
+				case Weather_Temperature.Contains("Sunny") :
+				case Weather_Temperature.Contains("Hot") :
+					sendCommand(ArduinoIntelligent, "yell")
+				
+				case default :
+					sendCommand(ArduinoIntelligent, "whit")
+			}
+		}
+end
+
+rule "Modifier eclairage depuis openHab"
+when
+	Item Light_GF_Hall received update
+	then
+		if(Light_GF_Hall.state == ON)
+			sendCommand(ArduinoIntelligent, "switch on;")
+		else {
+			postUpdate(Luminosite_Hall, 0)
+			sendCommand(ArduinoIntelligent, "switch off;")
+		}
+end
+*/
 
 rule "MAJ Luminosité hall Arduino"
 when
@@ -44,79 +142,7 @@ when
 		ArduinoLuminosityUpdate = ""
 end
 
-/*rule "Entree ou sortie de la maison"
-when
-	//Item ArduinoP received update or
-	Item ArduinoCapt received update
-	then
-		if (Personne == false) {
-		//on attend un peu et si la personne rentre, on affiche son poids
-			Personne = true
-			if (ArduinoP received update) {
-				ArduinoPoidsUpdate = ArduinoPoidsUpdate + ArduinoP.state.toString.trim
-				println("Arduino Poids Update : " + ArduinoPoidsUpdate)
-				val updates = ArduinoPoidsUpdate.split("\n")
-				for(update : updates) {
-					println("update -> " + update)
-					if (update.contains("Poids") && update.contains("=")) {
-						var IndexPoids = update.indexOf("=")
-						var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
-						// A voir car on dit explicitement à arduino de ne pas envoyer de donnée supérieur à 550
-						if (p > 550) {
-							sendCommand(Paillasson_Entrance, OFF)
-						}
-						postUpdate(Poids_Entrance, p)				
-					}
-				}
-			}	
-		} else {
-			//Une personne est deja passée soit devant le capteur soit sur le paillasson
-			Personne = false
-			// Si une personne passe devant le capteur, elle rentre dans la maison
-			if (ArduinoCapt received update) {
-				ArduinoCaptUpdate = ArduinoCaptUpdate + ArduinoCapt.state.toString.trim
-				println("Arduino Capteur Update : " + ArduinoCaptUpdate)
-				val updates = ArduinoCaptUpdate.split("\n")
-				for(update : updates) {
-					println("update -> " + update)
-					if (update.contains("attente sortie")) {
-						nb = nb + 1
-						postUpdate(Personnes, nb)
-						postUpdate(Light_GF_Hall, ON)
-						sendCommand(Paillasson_Entrance, ON)
-					}
-				}
-			//Si un personne passe sur le paillasson, elle sort de la maison
-			} else { 
-				ArduinoPoidsUpdate = ArduinoPoidsUpdate + ArduinoP.state.toString.trim
-				println("Arduino Poids Update : " + ArduinoPoidsUpdate)
-				val updates = ArduinoPoidsUpdate.split("\n")
-				for(update : updates) {
-					println("update -> " + update)
-					if (update.contains("Poids") && update.contains("=")) {
-						var IndexPoids = update.indexOf("=")
-						var Number p = Integer::parseInt(update.substring(IndexPoids + 1, update.indexOf(";")))
-						// A voir car on dit explicitement à arduino de ne pas envoyer de donnée supérieur à 550
-						if (p > 550) {
-							sendCommand(Paillasson_Entrance, OFF)
-						}
-						postUpdate(Poids_Entrance, p)				
-					}				
-				if (nb<=0) {
-					say ("Help !! There is a problem in your house!")
-				} 
-				else{
-					nb = nb-1
-					postUpdate(Personnes, nb)
-					if (nb == 0) {
-						postUpdate(Light_GF_Hall, OFF)
-						sendCommand(Paillasson_Entrance, OFF)
-					}			
-				}	
-			}
-		}
-		ArduinoPoidsUpdate = ""
-end*/
+
 
 
 rule "MAJ Poids Paillasson ArduinoP"
@@ -161,20 +187,6 @@ when
 			}
 		}
 		ArduinoPoidsUpdate = ""
-end
-
-
-
-rule "test"
-when
-	Item Light_GF_Hall received update
-	then
-		if(Light_GF_Hall.state == ON)
-			sendCommand(ArduinoLum, "switch on;")
-		else {
-			postUpdate(Luminosite_Hall, 0)
-			sendCommand(ArduinoLum, "switch off;")
-		}
 end
 
 rule "MAJ Capteur"
@@ -225,27 +237,4 @@ when
 	
 end
 
-/*rule "Affichage Meteo"
-	when 
-		Item ArduinoCapt received update
-	then
-		switch (Weather_Temperature ) {
-			case Weather_Temperature.Contains("Rain") : 
-			case Weather_Temperature.Contains("Thunderstorms") :
-			case Weather_Temperature.Contains("Drizzle") :
-			case Weather_Temperature.Contains("Showers"):
-				sendCommand(ArduinoPorteManteau, "blue")
-				
-			case Weather_Temperature.Contains("Snow") :
-				sendCommand(ArduinoPorteManteau, "white")
-				
-			case Weather_Temperature.Contains("Sunny") :
-			case Weather_Temperature.Contains("Hot") :
-				sendCommand(ArduinoPorteManteau, "yellow")
-				
-			case default :
-				sendCommand(ArduinoPorteManteau, "green")
-			}
-end
-*/
 	
