@@ -1,9 +1,0 @@
-Ce qu'il faut lui demandé :
-
-- 3 emetteurs
-- Un cable Nano
-- Alimentation Carte Arduino
-- Longs fils (des pas pourris !!)
-
-==> Envoi mail pour reunion mardi de la rentrée
-
