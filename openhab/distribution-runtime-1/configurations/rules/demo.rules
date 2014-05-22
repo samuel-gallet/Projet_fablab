@@ -3,6 +3,10 @@ import org.openhab.core.persistence.*
 import org.openhab.model.script.actions.*
 import java.util.StringTokenizer
 
+import javax.xml.parsers.*
+import org.w3c.dom.*
+import org.xml.sax.* 
+import java.io.*
 
 //var String ArduinoLuminosityUpdate = ""
 //var String ArduinoPoidsUpdate = ""
@@ -76,7 +80,12 @@ when
 				else 
 					sendCommand(ArduinoIntelligent, "whit;")
 			}
-			
+			/*
+			var doc = new DOMDocument()
+			doc.load('http://weather.yahooapis.com/forecastrss?w=12724717&u=c')
+			var CondNode = doc.getElementByTagname("yweather:condition").item(0)
+			var condition_string = CondNode.attributes.text.value
+			 */
 		}
 		ArduinoIntelligentUpdate = ""
 end

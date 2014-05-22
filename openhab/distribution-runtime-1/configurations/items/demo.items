@@ -21,10 +21,10 @@ Switch Light_GF_Hall "Lampe" (GF_Hall)
 //Switch Light_Presence "door" <siren> (gOut)	
 
 /* Luminosité */
-Number Luminosite_Hall "Luminosite [%d]" <slider> (GF_Hall)
+//Number Luminosite_Hall "Luminosite [%d]" <slider> (GF_Hall)
 
 /* Paillasson */
-Switch Paillasson_Entrance "Paillasson" <present> (gOut)
+//Switch Paillasson_Entrance "Paillasson" <present> (gOut)
 
 /* Poids */
 Number Poids_Entrance "Poids [%d]" <slider> (gOut)
