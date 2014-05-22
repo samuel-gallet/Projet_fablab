@@ -47,7 +47,6 @@ void loop()
       manageCommand((char *)buf);
     }
   else {
-    Serial.println("ok");
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledSoleil, LOW);
     digitalWrite(ledNuage, LOW);
