@@ -35,6 +35,19 @@ void loop()
   uint8_t buf[VW_MAX_MESSAGE_LEN];
   uint8_t buflen = VW_MAX_MESSAGE_LEN;
   
+  
+  if (vw_get_message(buf, &buflen)) // Non-blocking
+    {
+      Serial.println((uint8_t)*buf);
+      manageCommand((char *)buf);
+    }
+  else {
+    digitalWrite(ledPluie, LOW);
+    digitalWrite(ledSoleil, LOW);
+    digitalWrite(ledNuage, LOW);
+  }  
+  
+  
   val = digitalRead(capteur);
   if (val == 1) {
     char msg[8] = {'c','a','p','t','e','u','r',';'};
@@ -42,29 +55,24 @@ void loop()
     vw_send((uint8_t *)msg, 8);  
     vw_wait_tx(); // Wait until the whole message is gone
     delay(1000);
-    if (vw_get_message(buf, &buflen)) // Non-blocking
-    {
-      manageCommand((char *)buf);
-    }
-  } else {
-    digitalWrite(ledPluie, LOW);
-    digitalWrite(ledSoleil, LOW);
-    digitalWrite(ledNuage, LOW);
-  }  
+  }
 }
 
 void manageCommand(char * command) 
 {
   if (strstr(command, "blue")) 
   {
+    Serial.println("pluie");
     digitalWrite(ledPluie, HIGH);
   }
   else if (strstr(command, "yell"))
   {
+     Serial.println("soleil");
     digitalWrite(ledSoleil, HIGH);
   }
   else if (strstr(command, "whit"))
   {
+     Serial.println("nuage");
     digitalWrite(ledNuage, HIGH);
   }
 }

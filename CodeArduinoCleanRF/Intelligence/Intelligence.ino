@@ -143,7 +143,8 @@ void lamp()
 
       } else if (strstr(str, "blue") > 0 || strstr(str, "yell") > 0 || strstr(str, "whit") > 0)
       {
-        vw_send((uint8_t *)*p, 4);  
+        Serial.println((uint8_t)*p);
+        vw_send((uint8_t *)p, 4);  
         vw_wait_tx(); // Wait until the whole message is gone
       }
     }
