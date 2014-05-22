@@ -22,6 +22,7 @@ void setup()
     vw_rx_start();       // Start the receiver PLL running
     mySwitch.enableTransmit(transmit_pin);
     mySwitch.switchOff(2, 2);
+    vw_set_ptt_pin(transmit_pin);
     attenteCapteur = false;
     attentePaillasson = false;
     cptPersonne = 0;
@@ -30,7 +31,7 @@ void setup()
 void loop()
 {
     lamp();  
-   /* uint8_t buf[VW_MAX_MESSAGE_LEN];
+   uint8_t buf[VW_MAX_MESSAGE_LEN];
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
     if (vw_get_message(buf, &buflen)) // Non-blocking
     {
@@ -70,7 +71,7 @@ void loop()
         lamp();
         attentePaillasson = false;
       }
-    }*/   
+    }  
 }
 
 void manageCommand(char * command) 

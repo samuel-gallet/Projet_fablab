@@ -14,6 +14,9 @@ void setup ()
 {
   Serial.begin(9600);
   pinMode(capteur, INPUT);
+    pinMode(ledSoleil, OUTPUT);
+    pinMode(ledPluie, OUTPUT);
+    pinMode(ledNuage, OUTPUT);
   val = 0;
   // Initialise the IO and ISR
   //vw_set_tx_pin(transmit_pin);
@@ -44,20 +47,21 @@ void loop()
       manageCommand((char *)buf);
     }
   else {
+    Serial.println("ok");
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledSoleil, LOW);
     digitalWrite(ledNuage, LOW);
   }  
   
   
-  //val = digitalRead(capteur);
-  //if (val == 1) {
-    //char msg[8] = {'c','a','p','t','e','u','r',';'};
-    //Serial.println(msg);
-    //vw_send((uint8_t *)msg, 8);  
-    //vw_wait_tx(); // Wait until the whole message is gone
-    //delay(1000);
-  //}
+  val = digitalRead(capteur);
+  if (val == 1) {
+    char msg[8] = {'c','a','p','t','e','u','r',';'};
+    Serial.println(msg);
+    vw_send((uint8_t *)msg, 8);  
+    vw_wait_tx(); // Wait until the whole message is gone
+    delay(1000);
+  }
 }
 
 void manageCommand(char * command) 
