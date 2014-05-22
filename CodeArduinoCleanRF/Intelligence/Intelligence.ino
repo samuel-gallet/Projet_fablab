@@ -141,13 +141,31 @@ void lamp()
         //active = false;
         mySwitch.switchOff(2, 2);
 
-      } else if (strstr(str, "blue") > 0 || strstr(str, "yell") > 0 || strstr(str, "whit") > 0)
-      {
-        Serial.println((uint8_t)*p);
-        vw_send((uint8_t *)p, 4);  
-        vw_wait_tx(); // Wait until the whole message is gone
+      } else if (strstr(str, "blue") > 0)  {
+            char msg[5] = {'b','l','u','e',';'};
+            Serial.println(msg);
+            vw_send((uint8_t *)msg, 5);  
+            vw_wait_tx();
+        
+      } else if (strstr(str, "yell") > 0) {
+            char msg[7] = {'y','e','l','l','o','w',';'};
+            Serial.println(msg);
+            vw_send((uint8_t *)msg, 7);  
+            vw_wait_tx();
+      }else if (strstr(str, "whit") > 0) {
+            char msg[6] = {'w','h','i','t','e',';'};
+            Serial.println(msg);
+            vw_send((uint8_t *)msg, 6);  
+            vw_wait_tx();
+          
+        //Serial.println((uint8_t)*p);
+        //vw_send((uint8_t *)p, 4);  
+        //vw_wait_tx(); // Wait until the whole message is gone
       }
+    
+  
     }
+
   }  
 }
 
