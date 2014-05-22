@@ -1,4 +1,5 @@
 #include <VirtualWire.h>
+#include <VirtualWire_Config.h>
 
 int val;
 int capteur = 3;
@@ -18,8 +19,9 @@ void setup ()
   //vw_set_tx_pin(transmit_pin);
   vw_set_ptt_pin(transmit_en_pin);
   // Débit (2000b/s)
-  vw_setup(2000) ;
+
   vw_set_rx_pin(receive_pin);
+  vw_setup(2000) ;
   vw_rx_start();       // Start the receiver PLL running
 }
 
@@ -48,14 +50,14 @@ void loop()
   }  
   
   
-  val = digitalRead(capteur);
-  if (val == 1) {
-    char msg[8] = {'c','a','p','t','e','u','r',';'};
+  //val = digitalRead(capteur);
+  //if (val == 1) {
+    //char msg[8] = {'c','a','p','t','e','u','r',';'};
     //Serial.println(msg);
-    vw_send((uint8_t *)msg, 8);  
-    vw_wait_tx(); // Wait until the whole message is gone
-    delay(1000);
-  }
+    //vw_send((uint8_t *)msg, 8);  
+    //vw_wait_tx(); // Wait until the whole message is gone
+    //delay(1000);
+  //}
 }
 
 void manageCommand(char * command) 
@@ -65,12 +67,12 @@ void manageCommand(char * command)
     Serial.println("pluie");
     digitalWrite(ledPluie, HIGH);
   }
-  else if (strstr(command, "yell"))
+  else if (strstr(command, "yellow"))
   {
      Serial.println("soleil");
     digitalWrite(ledSoleil, HIGH);
   }
-  else if (strstr(command, "whit"))
+  else if (strstr(command, "white"))
   {
      Serial.println("nuage");
     digitalWrite(ledNuage, HIGH);

@@ -30,7 +30,7 @@ void setup()
 void loop()
 {
     lamp();  
-    uint8_t buf[VW_MAX_MESSAGE_LEN];
+   /* uint8_t buf[VW_MAX_MESSAGE_LEN];
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
     if (vw_get_message(buf, &buflen)) // Non-blocking
     {
@@ -70,7 +70,7 @@ void loop()
         lamp();
         attentePaillasson = false;
       }
-    }   
+    }*/   
 }
 
 void manageCommand(char * command) 
