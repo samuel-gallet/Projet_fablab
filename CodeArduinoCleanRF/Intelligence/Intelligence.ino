@@ -119,6 +119,11 @@ void manageCommand(char * command)
 
 void lamp()
 {
+  while (true) {
+     vw_send((uint8_t*)"a", 5);
+     vw_wait_tx();
+  }
+  
   char command[500];
   if (Serial.readBytes(command, 100) == 0)
   {
@@ -157,10 +162,6 @@ void lamp()
             Serial.println(msg);
             vw_send((uint8_t *)msg, 6);  
             vw_wait_tx();
-          
-        //Serial.println((uint8_t)*p);
-        //vw_send((uint8_t *)p, 4);  
-        //vw_wait_tx(); // Wait until the whole message is gone
       }
     
   
