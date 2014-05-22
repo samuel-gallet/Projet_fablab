@@ -34,8 +34,8 @@ void loop()
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
     if (vw_get_message(buf, &buflen)) // Non-blocking
     {
-      //Serial.print("commande reçu : ");
-      //Serial.println((char *)buf);
+      Serial.print("commande reçu : ");
+      Serial.println((char *)buf);
       manageCommand((char*)buf);
       if (attenteCapteur)
       {
@@ -118,12 +118,7 @@ void manageCommand(char * command)
 }
 
 void lamp()
-{
-  while (true) {
-     vw_send((uint8_t*)"a", 5);
-     vw_wait_tx();
-  }
-  
+{ 
   char command[500];
   if (Serial.readBytes(command, 100) == 0)
   {
