@@ -13,6 +13,7 @@ boolean attenteCapteur;
 boolean attentePaillasson;
 int cptPersonne;
 unsigned long long t;
+unsigned long long t2=0;
 
 void setup()
 {
@@ -25,8 +26,8 @@ void setup()
     vw_set_tx_pin(transmit_pin_meteo);
     vw_setup(2000) ;
     vw_rx_start();   */    // Start the receiver PLL running 
-    //mySwitch.enableTransmit(transmit_pin_lampe);
-    //mySwitch.switchOff(2, 2);
+    mySwitch.enableTransmit(transmit_pin_lampe);
+    mySwitch.switchOff(2, 2);
     attenteCapteur = false;
     attentePaillasson = false;
     cptPersonne = 0;
@@ -50,13 +51,11 @@ void loop()
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
     if (vw_get_message(buf, &buflen)) // Non-blocking
     {
-      Serial.print("commande reçu : ");
-      Serial.println((char *)buf);
       manageCommand((char*)buf);
       if (attenteCapteur)
       {
         t = millis();
-        while (t + 5000 > millis())
+        while (t + 7000 > millis())
         {
           lamp();
           if (vw_get_message(buf, &buflen))
@@ -73,7 +72,7 @@ void loop()
       if (attentePaillasson)
       {
         t = millis();  
-        while (t + 5000 > millis())
+        while (t + 7000 > millis())
         {
           lamp();
           if (vw_get_message(buf, &buflen))
@@ -105,12 +104,15 @@ void manageCommand(char * command)
       Serial.print(cptPersonne);
       Serial.println(";");
     }
-    else if (cptPersonne == 0) 
+    else if ( (cptPersonne == 0 && t2+60000<millis()) || t2==0) 
     {
       Serial.println("intrusion;");
+      t2= millis();
     } else
     {
-      Serial.println("meteo;");
+      if (!attentePaillasson && cptPersonne > 0){ 
+        Serial.println("meteo;");
+      }
       attentePaillasson = true;
     }
   }
@@ -164,8 +166,6 @@ void lamp()
             char msg[5] = {'b','l','u','e',';'};
             Serial.println(msg);
             vw_send((uint8_t *)msg, 5);
-            if(vw_tx_active())
-               Serial.println("on envoie le message");  
             vw_wait_tx();
         
       } else if (strstr(str, "yell") > 0) {

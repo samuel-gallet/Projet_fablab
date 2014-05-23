@@ -47,16 +47,14 @@ void loop()
     vw_send((uint8_t *)msg, 8);  
     vw_wait_tx(); // Wait until the whole message is gone
     delay(1000);
-    
-    if (vw_get_message(buf, &buflen)) // Non-blocking
+
+  }
+  
+  if (vw_get_message(buf, &buflen)) // Non-blocking
     {
-      if(!vw_have_message())
-      Serial.println("le message n'est pas recu");
       Serial.println((uint8_t)*buf);
       manageCommand((char *)buf);
     }
-    
-  }
 }
 
 void manageCommand(char * command) 
@@ -67,7 +65,7 @@ void manageCommand(char * command)
     digitalWrite(ledPluie, HIGH);
     digitalWrite(ledSoleil, LOW);
     digitalWrite(ledNuage, LOW);
-    delay(5000);
+    delay(1000);
     digitalWrite(ledPluie, LOW);
   }
   else if (strstr(command, "yellow"))
@@ -76,7 +74,7 @@ void manageCommand(char * command)
     digitalWrite(ledSoleil, HIGH);
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledNuage, LOW);
-    delay(5000);
+    delay(1000);
     digitalWrite(ledSoleil, LOW);
   }
   else if (strstr(command, "white"))
@@ -85,7 +83,7 @@ void manageCommand(char * command)
     digitalWrite(ledNuage, HIGH);
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledSoleil, LOW);
-    delay(5000);
+    delay(1000);
     digitalWrite(ledNuage, LOW);
   }
 }
