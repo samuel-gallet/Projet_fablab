@@ -8,7 +8,7 @@ HRCSwitch mySwitch = HRCSwitch();
 
 const int receive_pin = 4;
 const int transmit_pin_meteo = 12;
-const int transmit_pin_lampe = 10;
+const int transmit_pin_lampe = 12;
 boolean attenteCapteur;
 boolean attentePaillasson;
 int cptPersonne;
@@ -17,6 +17,9 @@ unsigned long long t;
 void setup()
 {
     Serial.begin(9600);	// Debugging only
+    vw_set_rx_pin(receive_pin);
+    vw_setup(2000) ;
+    vw_rx_start();       // Start the receiver PLL running
     // Initialise the IO and ISR
    /* vw_set_rx_pin(receive_pin);
     vw_set_tx_pin(transmit_pin_meteo);
@@ -31,19 +34,18 @@ void setup()
 
 void init_lampe() {
   mySwitch.enableTransmit(transmit_pin_lampe);
-  mySwitch.switchOff(2, 2);
 }
 
 void init_meteo() {
-  vw_set_rx_pin(receive_pin);
   vw_set_tx_pin(transmit_pin_meteo);
   vw_setup(2000) ;
-  vw_rx_start();       // Start the receiver PLL running
+
 }
 
 void loop()
 {
-    lamp();  
+  init_meteo();
+  lamp();  
    uint8_t buf[VW_MAX_MESSAGE_LEN];
     uint8_t buflen = VW_MAX_MESSAGE_LEN;
     if (vw_get_message(buf, &buflen)) // Non-blocking
@@ -70,7 +72,7 @@ void loop()
       }
       if (attentePaillasson)
       {
-        t = millis();
+        t = millis();  
         while (t + 5000 > millis())
         {
           lamp();
@@ -89,6 +91,7 @@ void loop()
 
 void manageCommand(char * command) 
 {
+  void init_meteo();
   if (strstr(command, "capteur;"))
   {
     if (attenteCapteur) 
@@ -149,10 +152,12 @@ void lamp()
       {
         init_lampe();
         mySwitch.switchOn(2, 2);
+        init_meteo();
       } else if (strstr(str, "switch off") > 0)
       { 
          init_lampe();     
          mySwitch.switchOff(2, 2);
+         init_meteo();
 
       } else if (strstr(str, "blue") > 0)  {
             init_meteo();

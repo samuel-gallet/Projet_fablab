@@ -40,21 +40,6 @@ void loop()
   uint8_t buf[VW_MAX_MESSAGE_LEN];
   uint8_t buflen = VW_MAX_MESSAGE_LEN;
   
-  vw_wait_rx();
-  if (vw_get_message(buf, &buflen)) // Non-blocking
-    {
-      if(!vw_have_message())
-        Serial.println("le message n'est pas recu");
-      Serial.println((uint8_t)*buf);
-      manageCommand((char *)buf);
-    }
-  else {
-    digitalWrite(ledPluie, LOW);
-    digitalWrite(ledSoleil, LOW);
-    digitalWrite(ledNuage, LOW);
-  }  
-  
-  
   val = digitalRead(capteur);
   if (val == 1) {
     char msg[8] = {'c','a','p','t','e','u','r',';'};
@@ -62,6 +47,15 @@ void loop()
     vw_send((uint8_t *)msg, 8);  
     vw_wait_tx(); // Wait until the whole message is gone
     delay(1000);
+    
+    if (vw_get_message(buf, &buflen)) // Non-blocking
+    {
+      if(!vw_have_message())
+      Serial.println("le message n'est pas recu");
+      Serial.println((uint8_t)*buf);
+      manageCommand((char *)buf);
+    }
+    
   }
 }
 
@@ -71,15 +65,27 @@ void manageCommand(char * command)
   {
     Serial.println("pluie");
     digitalWrite(ledPluie, HIGH);
+    digitalWrite(ledSoleil, LOW);
+    digitalWrite(ledNuage, LOW);
+    delay(5000);
+    digitalWrite(ledPluie, LOW);
   }
   else if (strstr(command, "yellow"))
   {
-     Serial.println("soleil");
+    Serial.println("soleil");
     digitalWrite(ledSoleil, HIGH);
+    digitalWrite(ledPluie, LOW);
+    digitalWrite(ledNuage, LOW);
+    delay(5000);
+    digitalWrite(ledSoleil, LOW);
   }
   else if (strstr(command, "white"))
   {
      Serial.println("nuage");
     digitalWrite(ledNuage, HIGH);
+    digitalWrite(ledPluie, LOW);
+    digitalWrite(ledSoleil, LOW);
+    delay(5000);
+    digitalWrite(ledNuage, LOW);
   }
 }

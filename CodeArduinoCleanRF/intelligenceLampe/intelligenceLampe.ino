@@ -1,7 +1,7 @@
 #include <HRCSwitch.h>
 
 HRCSwitch mySwitch = HRCSwitch();
-const int TXpin = 9;
+const int TXpin = 12;
 
 
 void setup ()
