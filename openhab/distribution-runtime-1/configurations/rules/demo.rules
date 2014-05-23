@@ -135,12 +135,14 @@ rule "IA"
 	when 
 		Item ArduinoIntelligent received update
 	then
+		ArduinoIntelligentUpdate = ""
 		ArduinoIntelligentUpdate = ArduinoIntelligentUpdate + ArduinoIntelligent.state.toString.trim
 		val majs = ArduinoIntelligentUpdate.split("\n")
 		for (maj : majs) {
 			println("update -> " + maj)
 			if (maj.contains("paillasson")) {
 				if (attentePaillasson){
+					paillassonTimer.cancel
 					if (nbPersonne > 0) {
 						nbPersonne = nbPersonne - 1
 						postUpdate(Personnes, nbPersonne)
@@ -152,13 +154,16 @@ rule "IA"
 					attentePaillasson = false
 				} else {
 					attenteCapteur = true;
-					capteurTimer = createTimer(now.plusSeconds(5), [ |
-						attenteCapteur = false;
-					])	
+					if (capteurTimer == null || capteurTimer.hasTerminated)
+						capteurTimer = createTimer(now.plusSeconds(5), [ |
+							attenteCapteur = false;
+							println("fin attente capteur")
+						])	
 				}
 			}
 			if (maj.contains("capteur")) {
 				if (attenteCapteur) {
+					capteurTimer.cancel
 					nbPersonne = nbPersonne + 1
 					postUpdate(Personnes, nbPersonne)
 					if (nbPersonne == 1 || Light_GF_Hall.state == OFF) {
@@ -167,23 +172,38 @@ rule "IA"
 					}
 					attenteCapteur = false
 				} else {
+					attentePaillasson = true;
 					if (nbPersonne == 0 && !intrusion) {
 						sendMail("samuel.gallet@gmail.com", "Voleur!!", "Voleur présent chez toi")
 						intrusion = true
-						intrusionTimer = createTimer(now.plusSeconds(60), [|
-							intrusion = false;
+						if (intrusionTimer == null || intrusionTimer.hasTerminated)
+							intrusionTimer = createTimer(now.plusSeconds(60), [|
+								intrusion = false;
+							])
+					} else if (nbPersonne > 0) {
+						var weather = Weather_Temperature.state.toString.trim
+						if (weather.contains("Rain") || weather.contains("Thunderstorms")
+							|| weather.contains("Drizzle") || weather.contains("Showers")
+							|| weather.contains("Snow")
+						)
+							sendCommand(ArduinoIntelligent, "blue;")
+						else if (weather.contains("Sunny") ||
+							weather.contains("Hot") || weather.contains("Fair")
+						)
+							sendCommand(ArduinoIntelligent, "yell;")
+						else 
+							sendCommand(ArduinoIntelligent, "whit;")
+							
+					} 
+					if (paillassonTimer == null || paillassonTimer.hasTerminated)
+						paillassonTimer = createTimer(now.plusSeconds(5), [ |
+							attentePaillasson = false
 						])
-					}
-					//if(!attentePaillasson && nbPersonne > 0)
-						//sendCommand(ArduinoIntelligent, "meteo;")
-					attentePaillasson = true;
-					paillassonTimer = createTimer(now.plusSeconds(5), [ |
-						attentePaillasson = false
-					])
 				}
 			}
 				
 		}
+		ArduinoIntelligentUpdate = ""
 		
 end
 

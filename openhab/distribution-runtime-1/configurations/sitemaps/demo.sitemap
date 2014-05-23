@@ -1,7 +1,6 @@
 sitemap demo label="Main Menu"
 {
 	Frame {
-		Group item=gOut label="Entrance" icon="frontdoor-open"
 		Group item=gGF label="Ground Floor" icon="groundfloor"
 	}
 	

@@ -65,7 +65,7 @@ void manageCommand(char * command)
     digitalWrite(ledPluie, HIGH);
     digitalWrite(ledSoleil, LOW);
     digitalWrite(ledNuage, LOW);
-    delay(1000);
+    delay(10000);
     digitalWrite(ledPluie, LOW);
   }
   else if (strstr(command, "yellow"))
@@ -74,7 +74,7 @@ void manageCommand(char * command)
     digitalWrite(ledSoleil, HIGH);
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledNuage, LOW);
-    delay(1000);
+    delay(10000);
     digitalWrite(ledSoleil, LOW);
   }
   else if (strstr(command, "white"))
@@ -83,7 +83,7 @@ void manageCommand(char * command)
     digitalWrite(ledNuage, HIGH);
     digitalWrite(ledPluie, LOW);
     digitalWrite(ledSoleil, LOW);
-    delay(1000);
+    delay(10000);
     digitalWrite(ledNuage, LOW);
   }
 }

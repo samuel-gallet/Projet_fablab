@@ -9,6 +9,9 @@ HRCSwitch mySwitch = HRCSwitch();
 const int receive_pin = 4;
 const int transmit_pin_meteo = 12;
 const int transmit_pin_lampe = 12;
+unsigned long long t_capt = 0;
+unsigned long long t_pail = 0;
+unsigned long long t_meteo = 0;
 
 void setup()
 {
@@ -39,11 +42,16 @@ void loop()
     if (vw_get_message(buf, &buflen)) // Non-blocking
     {
       if (strstr((char *)buf, "capteur;")){
-        Serial.println("capteur;");
-        delay(5000);
+        if (t_capt == 0 || t_capt + 3000 < millis()) {
+          Serial.println("capteur;");
+          t_capt = millis();
+        }
       }
       if (strstr((char *)buf, "paillasson")){
-        Serial.println("paillasson;");
+        if (t_pail == 0 || t_pail + 1000 < millis()) {
+          Serial.println("paillasson;");
+          t_pail = millis();
+        }
         //delay(5000);
       }
     }
@@ -78,20 +86,17 @@ void lamp()
       } else if (strstr(str, "blue") > 0)  {
             init_meteo();
             char msg[5] = {'b','l','u','e',';'};
-            Serial.println(msg);
             vw_send((uint8_t *)msg, 5);
             vw_wait_tx();
         
       } else if (strstr(str, "yell") > 0) {
             init_meteo();
             char msg2[7] = {'y','e','l','l','o','w',';'};
-            Serial.println(msg2);
             vw_send((uint8_t *)msg2, 7);  
             vw_wait_tx();
       }else if (strstr(str, "whit") > 0) {
             init_meteo();
             char msg3[6] = {'w','h','i','t','e',';'};
-            Serial.println(msg3);
             vw_send((uint8_t *)msg3, 6);  
             vw_wait_tx();
       }
