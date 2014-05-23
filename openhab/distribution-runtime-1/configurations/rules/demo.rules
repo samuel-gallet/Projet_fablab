@@ -14,14 +14,19 @@ import java.io.*
 var String ArduinoIntelligentUpdate = ""
 //var Number nb = 0
 //var Boolean Personne = false
+var Boolean attenteCapteur = false
+var Boolean attentePaillasson = false
+var Boolean intrusion = false
+var Timer paillassonTimer
+var Timer capteurTimer
+var Timer intrusionTimer
+var Number nbPersonne = 0
 
 rule Startup
 when 
 	System started
 then
 	say("Hello Hélène Robin Audrey Samuel et Caroline !")
-	println(Weather_Temperature)
-	println(w)
 end
 
 rule Goodbye
@@ -32,7 +37,7 @@ then
 end
 
 
-rule "Entree maison et MAJ poids et allumer si first"
+/*rule "Entree maison et MAJ poids et allumer si first"
 when
 	Item ArduinoIntelligent received update
 	then
@@ -88,10 +93,10 @@ when
 			doc.load('http://weather.yahooapis.com/forecastrss?w=12724717&u=c')
 			var CondNode = doc.getElementByTagname("yweather:condition").item(0)
 			var condition_string = CondNode.attributes.text.value
-			 */
+			 
 		}
 		ArduinoIntelligentUpdate = ""
-end
+end*/
 
 /*rule "Sortie maison et MAJ poids et eteindre si dernier"
 when
@@ -125,31 +130,83 @@ when
 		ArduinoIntelligentUpdate = ""
 end
 */
-/*rule "Affichage Meteo"
+
+rule "IA"
 	when 
 		Item ArduinoIntelligent received update
 	then
+		ArduinoIntelligentUpdate = ""
 		ArduinoIntelligentUpdate = ArduinoIntelligentUpdate + ArduinoIntelligent.state.toString.trim
-		if (!ArduinoIntelligentUpdate.contains("meteo")) {
-			println("Arduino Intelligent Update : " + ArduinoIntelligentUpdate)
-			switch (Weather_Temperature ) {
-				case Weather_Temperature.Contains("Rain") : 
-				case Weather_Temperature.Contains("Thunderstorms") :
-				case Weather_Temperature.Contains("Drizzle") :
-				case Weather_Temperature.Contains("Showers"):
-				case Weather_Temperature.Contains("Snow") :
-					sendCommand(ArduinoIntelligent, "blue")
-				
-				case Weather_Temperature.Contains("Sunny") :
-				case Weather_Temperature.Contains("Hot") :
-					sendCommand(ArduinoIntelligent, "yell")
-				
-				case default :
-					sendCommand(ArduinoIntelligent, "whit")
+		val majs = ArduinoIntelligentUpdate.split("\n")
+		for (maj : majs) {
+			println("update -> " + maj)
+			if (maj.contains("paillasson")) {
+				if (attentePaillasson){
+					paillassonTimer.cancel
+					if (nbPersonne > 0) {
+						nbPersonne = nbPersonne - 1
+						postUpdate(Personnes, nbPersonne)
+					}
+					if (nbPersonne == 0 && Light_GF_Hall.state == ON) {
+							sendCommand(ArduinoIntelligent, "switch off;")
+							postUpdate(Light_GF_Hall,OFF)
+					}
+					attentePaillasson = false
+				} else {
+					attenteCapteur = true;
+					if (capteurTimer == null || capteurTimer.hasTerminated)
+						capteurTimer = createTimer(now.plusSeconds(5), [ |
+							attenteCapteur = false;
+							println("fin attente capteur")
+						])	
+				}
 			}
+			if (maj.contains("capteur")) {
+				if (attenteCapteur) {
+					capteurTimer.cancel
+					nbPersonne = nbPersonne + 1
+					postUpdate(Personnes, nbPersonne)
+					if (nbPersonne == 1 || Light_GF_Hall.state == OFF) {
+							sendCommand(ArduinoIntelligent, "switch on;")
+							postUpdate(Light_GF_Hall,ON)
+					}
+					attenteCapteur = false
+				} else {
+					attentePaillasson = true;
+					if (nbPersonne == 0 && !intrusion) {
+						sendMail("samuel.gallet@gmail.com", "Voleur!!", "Voleur présent chez toi")
+						intrusion = true
+						if (intrusionTimer == null || intrusionTimer.hasTerminated)
+							intrusionTimer = createTimer(now.plusSeconds(60), [|
+								intrusion = false;
+							])
+					} else if (nbPersonne > 0) {
+						var weather = Weather_Temperature.state.toString.trim
+						if (weather.contains("Rain") || weather.contains("Thunderstorms")
+							|| weather.contains("Drizzle") || weather.contains("Showers")
+							|| weather.contains("Snow")
+						)
+							sendCommand(ArduinoIntelligent, "blue;")
+						else if (weather.contains("Sunny") ||
+							weather.contains("Hot") || weather.contains("Fair")
+						)
+							sendCommand(ArduinoIntelligent, "yell;")
+						else 
+							sendCommand(ArduinoIntelligent, "whit;")
+							
+					} 
+					if (paillassonTimer == null || paillassonTimer.hasTerminated)
+						paillassonTimer = createTimer(now.plusSeconds(5), [ |
+							attentePaillasson = false
+						])
+				}
+			}
+				
 		}
+		ArduinoIntelligentUpdate = ""
+		
 end
-*/
+
 rule "Modifier eclairage depuis openHab"
 when
 	Item Light_GF_Hall received update
