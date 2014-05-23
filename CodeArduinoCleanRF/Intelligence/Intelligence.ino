@@ -7,8 +7,8 @@
 HRCSwitch mySwitch = HRCSwitch();
 
 const int receive_pin = 4;
-const int transmit_pin_meteo = 9;
-const int transmit_pin_lampe = 10;
+const int transmit_pin_meteo = 12;
+//const int transmit_pin_lampe = 10;
 boolean attenteCapteur;
 boolean attentePaillasson;
 int cptPersonne;
@@ -19,11 +19,11 @@ void setup()
     Serial.begin(9600);	// Debugging only
     // Initialise the IO and ISR
     vw_set_rx_pin(receive_pin);
-    vw_set_ptt_pin(transmit_pin_meteo);
+    vw_set_tx_pin(transmit_pin_meteo);
     vw_setup(2000) ;
     vw_rx_start();       // Start the receiver PLL running
-    mySwitch.enableTransmit(transmit_pin_lampe);
-    mySwitch.switchOff(2, 2);
+    //mySwitch.enableTransmit(transmit_pin_lampe);
+    //mySwitch.switchOff(2, 2);
     attenteCapteur = false;
     attentePaillasson = false;
     cptPersonne = 0;
@@ -136,17 +136,17 @@ void lamp()
       if (strstr(str, "switch on") > 0)
       {
         //Serial.println("ok");
-       // active = true;
         mySwitch.switchOn(2, 2);
       } else if (strstr(str, "switch off") > 0)
       {      
-        //active = false;
         mySwitch.switchOff(2, 2);
 
       } else if (strstr(str, "blue") > 0)  {
             char msg[5] = {'b','l','u','e',';'};
             Serial.println(msg);
-            vw_send((uint8_t *)msg, 5);  
+            vw_send((uint8_t *)msg, 5);
+            if(vw_tx_active())
+               Serial.println("on envoie le message");  
             vw_wait_tx();
         
       } else if (strstr(str, "yell") > 0) {
