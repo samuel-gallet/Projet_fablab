@@ -24,10 +24,12 @@ void loop()
   // Détection poids entrée
   val = analogRead(resistance);
   //Serial.println(val);
+  Serial.println(val);
   
-  if(val > 190){
+  if(val > 100){
     char msg[13] = {'p','a','i','l','l','a','s','s','o','n',' ','#', ';'};
     msg[11]=val;
+    Serial.println(msg);
     vw_send((uint8_t *)msg, 13);  
     vw_wait_tx(); // Wait until the whole message is gone
     delay(2000);
