@@ -20,6 +20,8 @@ when
 	System started
 then
 	say("Hello Hélène Robin Audrey Samuel et Caroline !")
+	println(Weather_Temperature)
+	println(w)
 end
 
 rule Goodbye
@@ -66,6 +68,7 @@ when
 					//sendMail("samuel.gallet@gmail.com", "Voleur!!", "Voleur présent chez toi")
 			}
 			if (maj.contains("meteo")) {
+				
 				var weather = Weather_Temperature.state.toString.trim
 				println(weather)
 				if (weather.contains("Rain") || weather.contains("Thunderstorms")
@@ -74,7 +77,7 @@ when
 				)
 					sendCommand(ArduinoIntelligent, "blue;")
 				else if (weather.contains("Sunny") ||
-					weather.contains("Hot")
+					weather.contains("Hot") || weather.contains("Fair")
 				)
 					sendCommand(ArduinoIntelligent, "yell;")
 				else 
