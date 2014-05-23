@@ -40,9 +40,11 @@ void loop()
   uint8_t buf[VW_MAX_MESSAGE_LEN];
   uint8_t buflen = VW_MAX_MESSAGE_LEN;
   
-  
+  vw_wait_rx();
   if (vw_get_message(buf, &buflen)) // Non-blocking
     {
+      if(!vw_have_message())
+        Serial.println("le message n'est pas recu");
       Serial.println((uint8_t)*buf);
       manageCommand((char *)buf);
     }
