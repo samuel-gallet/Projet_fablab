@@ -5,7 +5,7 @@ sitemap demo label="Main Menu"
 	}
 	
 	Frame label="Info Interne"{
-		Group item=gInfo label="Information maison" icon="house"
+		Group item=gInfo label="Informations" icon="house"
 		Text item=YahooWeatherCode icon="yahoo_weather"
 		Text item=w
 	}
