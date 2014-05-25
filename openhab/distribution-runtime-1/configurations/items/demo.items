@@ -27,7 +27,8 @@ Number Poids_Entrance "Poids [%d]" <slider> (gOut)
 Number Personnes "Nombre de Personnes [%d]" <parents> (gInfo)
 
 /* Arduino Intelligent */
-String ArduinoIntelligent "Arduino intelligent [%s]" (gDevice) {serial="/dev/tty.usbmodem1411"}
+String ArduinoIntelligent "Arduino intelligent [%s]" (gDevice) {serial="/dev/ttyACM0"}
+
 
 /* Porte-manteau */
 String Weather_Temperature 		"Condition Extérieure [%s]"	<temperature> (Weather_Chart) 
