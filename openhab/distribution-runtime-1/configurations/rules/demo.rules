@@ -142,6 +142,7 @@ rule "IA"
 			println("update -> " + maj)
 			if (maj.contains("paillasson")) {
 				if (attentePaillasson){
+					attentePaillasson = false
 					paillassonTimer.cancel
 					if (nbPersonne > 0) {
 						nbPersonne = nbPersonne - 1
@@ -151,11 +152,10 @@ rule "IA"
 							sendCommand(ArduinoIntelligent, "switch off;")
 							postUpdate(Light_GF_Hall,OFF)
 					}
-					attentePaillasson = false
 				} else {
 					attenteCapteur = true;
 					if (capteurTimer == null || capteurTimer.hasTerminated)
-						capteurTimer = createTimer(now.plusSeconds(5), [ |
+						capteurTimer = createTimer(now.plusSeconds(7), [ |
 							attenteCapteur = false;
 							println("fin attente capteur")
 						])	
@@ -163,6 +163,7 @@ rule "IA"
 			}
 			if (maj.contains("capteur")) {
 				if (attenteCapteur) {
+					attenteCapteur = false
 					capteurTimer.cancel
 					nbPersonne = nbPersonne + 1
 					postUpdate(Personnes, nbPersonne)
@@ -170,7 +171,18 @@ rule "IA"
 							sendCommand(ArduinoIntelligent, "switch on;")
 							postUpdate(Light_GF_Hall,ON)
 					}
-					attenteCapteur = false
+					var weather = Weather_Temperature.state.toString.trim
+						if (weather.contains("Rain") || weather.contains("Thunderstorms")
+							|| weather.contains("Drizzle") || weather.contains("Showers")
+							|| weather.contains("Snow")
+						)
+							sendCommand(ArduinoIntelligent, "blue;")
+						else if (weather.contains("Sunny") ||
+							weather.contains("Hot") || weather.contains("Fair")
+						)
+							sendCommand(ArduinoIntelligent, "yell;")
+						else 
+							sendCommand(ArduinoIntelligent, "whit;")
 				} else {
 					attentePaillasson = true;
 					if (nbPersonne == 0 && !intrusion) {
@@ -196,8 +208,9 @@ rule "IA"
 							
 					} 
 					if (paillassonTimer == null || paillassonTimer.hasTerminated)
-						paillassonTimer = createTimer(now.plusSeconds(5), [ |
+						paillassonTimer = createTimer(now.plusSeconds(10), [ |
 							attentePaillasson = false
+							println("fin attente paillasson")
 						])
 				}
 			}
