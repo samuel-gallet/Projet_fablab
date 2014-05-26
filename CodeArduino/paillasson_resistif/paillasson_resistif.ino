@@ -23,7 +23,7 @@ void loop()
   val = analogRead(resistance);
   Serial.println(val);
   
-  if(val > 100){
+  if(val > 170){
     char msg[13] = {'p','a','i','l','l','a','s','s','o','n',' ','#', ';'};
     msg[11]=val;
     Serial.println(msg);
